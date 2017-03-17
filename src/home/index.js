@@ -13,7 +13,9 @@ import Layout from '../../components/Layout';
 import s from './styles.css';
 import { title, html } from './index.md';
 
+import $ from 'jquery';
 import moment from 'moment';
+import Tabletop from 'tabletop';
 
 class HomePage extends React.Component {
   static propTypes = {
@@ -49,6 +51,13 @@ class HomePage extends React.Component {
     console.log('component: ', component);
     // console.log('component.state.currentTime: ', component.state.currentTime);
     // console.log('component.state.currentDay: ', component.state.currentDay);
+
+    component.getDataFromSheets('https://docs.google.com/spreadsheets/d/1cLTMAeroSyfZX9x5Izl-sfWTXjtz1Tkr6K2PnlPdlzM/pubhtml?gid=1300394552&single=true').done(function(data) {
+      console.log('getDataFromSheets data: ', data);
+      // this.setState({
+      //   googleSheetsData: data
+      // });
+    });
   };
 
   componentWillMount() {
@@ -85,6 +94,23 @@ class HomePage extends React.Component {
   //     currentDay: moment().day()
   //   });
   // };
+
+  getDataFromSheets(url) {
+    console.log('FUNCTION getDataFromSheets');
+    console.log('\n');
+
+    var deferred = $.Deferred();
+
+    Tabletop.init({
+      key: url,
+      callback: function(data, tabletop) {
+        deferred.resolve(data);
+      },
+      simpleSheet: true
+    });
+
+    return deferred.promise();
+  };
 
   getCurrentLocation() {
     console.log('FUNCTION getCurrentLocation');
@@ -183,18 +209,17 @@ class HomePage extends React.Component {
   };
 
   render() {
-    var component = this;
+    // var component = this;
 
-    component.state.places.forEach(function(place) {
-      var now = moment(),
-          today = now.day();
+    // component.state.places.forEach(function(place) {
+    //   var now = moment(),
+    //       today = now.day();
 
-      component.checkIfOpen(now, today, place);
-    });
+    //   component.checkIfOpen(now, today, place);
+    // });
 
     return (
       <Layout className={s.content}>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
         <h4>Places</h4>
         <ul>
           {this.props.places.map((place, i) =>
