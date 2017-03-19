@@ -2,10 +2,7 @@
   {
     "path": "/",
     "page": "./home",
-    "chunk": "main",
-    "data": {
-      "places": "GET http://ryanabednar.com/rome-test-data.json"
-    }
+    "chunk": "main"
   },
   {
     "path": "/error",
