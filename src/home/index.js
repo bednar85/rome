@@ -10,6 +10,7 @@
 
 import React, { PropTypes } from 'react';
 import Layout from '../../components/Layout';
+import cx from 'classnames';
 import s from './styles.css';
 import { title, html } from './index.md';
 
@@ -122,7 +123,64 @@ class HomePage extends React.Component {
     });
   };
 
-  // checkIfOpen goes here
+  checkIfOpen(now, today, todayMorning, yesterday, place) {
+    console.log('place.name: ', place.name);
+
+    if(typeof place.hours === 'string') {
+      console.log('place.hours: ', place.hours);
+
+      if(place.hours === 'Always Open') {
+        // if place.hours is "Always Open" return true
+        return true;
+      } else {
+        // if place.hours is "No Hours Data" exit out of this function
+        return;
+      }
+    } else {
+      // store moment comparison results
+      var results = [];
+
+      // for each range in ranges
+      _.forEach(place.hours[today].ranges, function(range) {
+        // console.log('range: ', range);
+
+        // if now is before 5am, set day var to yesterday
+        var day = now.isBefore(todayMorning) ? yesterday : today;
+
+        var range_open = moment().set({
+          'day': day,
+          'hour': range[0].h,
+          'minute': range[0].m || 0,
+          'second': 0
+        }),
+        range_close = moment().set({
+          'day': day,
+          'hour': range[1].h,
+          'minute': range[1].m || 0,
+          'second': 0
+        });
+
+        // console.log('now: ' + now.format("dddd Do H:mm:ss"));
+        // console.log('range_open: ' + range_open.format("dddd Do H:mm:ss"));
+        // console.log('range_close: ' + range_close.format("dddd Do H:mm:ss"));
+        // console.log('now.isBetween(range_open, range_close): ', now.isBetween(range_open, range_close));
+
+        // push new moment comparison result to results var
+        results.push(now.isBetween(range_open, range_close));
+      });
+
+      console.log('results: ', results);
+      
+      if(results.includes(true)) {
+        console.log('A \'true\' was found');
+      } else {
+        console.log('No \'true\' found.');
+      }
+
+      // return true if place is open
+      return results.includes(true);
+    }
+  };
 
   render() {
     console.log('render() ...');
@@ -130,25 +188,44 @@ class HomePage extends React.Component {
 
     var component = this;
 
+    // set moment related data
+    // for tomorrow var if today + 1 = 7 set tomorrow to 0 (Sunday)
+    // for yesterday var if today - 1 < 0 set yesterday to 6 (Saturday)
     var now = moment(),
         today = now.day(),
-        tomorrow = today + 1;
+        todayMorning = moment().set({
+          'day': today,
+          'hour': 5,
+          'minute': 0,
+          'second': 0
+        }),
+        tomorrow = today + 1 === 7 ? 0 : today + 1,
+        yesterday = today - 1 < 0 ? 6 : today - 1;
 
-    if(tomorrow === 7) {
-        tomorrow = 0;
-    }
-
-    console.log('now: ', now);
-    console.log('today: ', today);
-    console.log('tomorrow: ', tomorrow);
-    console.log('component.state.places: ', component.state.places);
+    // console.log('now: ', now);
+    // console.log('today: ', today);
+    // console.log('todayMorning: ', todayMorning);
+    // console.log('tomorrow: ', tomorrow);
+    // console.log('yesterday: ', yesterday);
+    // console.log('component.state.places: ', component.state.places);
 
     var places = component.state.places.map(function(place, i) {
+
+      // check if place is open
+      var placeIsOpen = component.checkIfOpen(now, today, todayMorning, yesterday, place);
+
+      console.log('placeIsOpen: ', placeIsOpen);
+      console.log('\n');
+
+      var placeClassNames = cx(s.place, {
+        [s.placeIsClosed]: !placeIsOpen
+      });
+
       return (
-        <li className="place" key={i}>
-          <h1 className="place__name">{place.name}</h1>
-          <p className="place__address">{place.address}</p>
-          <p className="place__neighborhood">{place.neighborhood}</p>
+        <li className={placeClassNames} key={i}>
+          <h1 className={s.place__name}>{place.name}</h1>
+          <p className={s.place__address}>{place.address}</p>
+          <p className={s.place__neighborhood}>{place.neighborhood}</p>
           {typeof place.hours === 'string' ? (
             <div className="place__">
               <p className="place__">{place.hours}</p>
@@ -165,7 +242,7 @@ class HomePage extends React.Component {
 
     return (
       <Layout className={s.content}>
-        <ul>
+        <ul className={s.placesList}>
           {places}
         </ul>
       </Layout>

@@ -1402,12 +1402,6 @@
         ]
     },
     {
-        "name":                    "Belvedere Cederna",
-        "id":                      "XuYgwdUm",
-        "hoursDataSource":         "",
-        "hours":                   "No Hours Data"
-    },
-    {
         "name":                    "Beppe e I Suoi Formaggi",
         "id":                      "D4FE5Pqo",
         "hoursDataSource":         "Yelp",
@@ -5496,69 +5490,6 @@
     },
     {
         "name":                    "Il Gelato",
-        "id":                      "C6igUIqT",
-        "hoursDataSource":         "Yelp",
-        "hours":                   [
-            {
-                "day":             "Sun",
-                "format_12":       "11:00 am - 10:00 pm",
-                "format_24":       "11:00 - 22:00",
-                "ranges":          [
-                    [{"h":11},{"h":22}]
-                ]
-            },
-            {
-                "day":             "Mon",
-                "format_12":       "11:00 am - 10:00 pm",
-                "format_24":       "11:00 - 22:00",
-                "ranges":          [
-                    [{"h":11},{"h":22}]
-                ]
-            },
-            {
-                "day":             "Tue",
-                "format_12":       "11:00 am - 10:00 pm",
-                "format_24":       "11:00 - 22:00",
-                "ranges":          [
-                    [{"h":11},{"h":22}]
-                ]
-            },
-            {
-                "day":             "Wed",
-                "format_12":       "11:00 am - 10:00 pm",
-                "format_24":       "11:00 - 22:00",
-                "ranges":          [
-                    [{"h":11},{"h":22}]
-                ]
-            },
-            {
-                "day":             "Thu",
-                "format_12":       "11:00 am - 10:00 pm",
-                "format_24":       "11:00 - 22:00",
-                "ranges":          [
-                    [{"h":11},{"h":22}]
-                ]
-            },
-            {
-                "day":             "Fri",
-                "format_12":       "11:00 am - 10:00 pm",
-                "format_24":       "11:00 - 22:00",
-                "ranges":          [
-                    [{"h":11},{"h":22}]
-                ]
-            },
-            {
-                "day":             "Sat",
-                "format_12":       "11:00 am - 10:00 pm",
-                "format_24":       "11:00 - 22:00",
-                "ranges":          [
-                    [{"h":11},{"h":22}]
-                ]
-            }
-        ]
-    },
-    {
-        "name":                    "Il Gelato",
         "id":                      "LSQOsRul",
         "hoursDataSource":         "Yelp",
         "hours":                   [
@@ -6737,6 +6668,69 @@
         "hours":                   "No Hours Data"
     },
     {
+        "name":                    "Lemongrass Gelato",
+        "id":                      "C6igUIqT",
+        "hoursDataSource":         "Yelp",
+        "hours":                   [
+            {
+                "day":             "Sun",
+                "format_12":       "8:00 am - 12:00 am",
+                "format_24":       "8:00 - 0:00",
+                "ranges":          [
+                    [{"h":8},{"h":24}]
+                ]
+            },
+            {
+                "day":             "Mon",
+                "format_12":       "8:00 am - 12:00 am",
+                "format_24":       "8:00 - 0:00",
+                "ranges":          [
+                    [{"h":8},{"h":24}]
+                ]
+            },
+            {
+                "day":             "Tue",
+                "format_12":       "8:00 am - 12:00 am",
+                "format_24":       "8:00 - 0:00",
+                "ranges":          [
+                    [{"h":8},{"h":24}]
+                ]
+            },
+            {
+                "day":             "Wed",
+                "format_12":       "8:00 am - 12:00 am",
+                "format_24":       "8:00 - 0:00",
+                "ranges":          [
+                    [{"h":8},{"h":24}]
+                ]
+            },
+            {
+                "day":             "Thu",
+                "format_12":       "8:00 am - 12:00 am",
+                "format_24":       "8:00 - 0:00",
+                "ranges":          [
+                    [{"h":8},{"h":24}]
+                ]
+            },
+            {
+                "day":             "Fri",
+                "format_12":       "8:00 am - 12:00 am",
+                "format_24":       "8:00 - 0:00",
+                "ranges":          [
+                    [{"h":8},{"h":24}]
+                ]
+            },
+            {
+                "day":             "Sat",
+                "format_12":       "8:00 am - 12:00 am",
+                "format_24":       "8:00 - 0:00",
+                "ranges":          [
+                    [{"h":8},{"h":24}]
+                ]
+            }
+        ]
+    },
+    {
         "name":                    "Libreria Giufà",
         "id":                      "enuT1PSG",
         "hoursDataSource":         "Yelp",
@@ -7889,67 +7883,6 @@
                 "ranges":          [
                     [{"h":18},{"h":26}]
                 ]
-            },
-            {
-                "day":             "Tue",
-                "format_12":       "6:00 pm - 2:00 am",
-                "format_24":       "18:00 - 2:00",
-                "ranges":          [
-                    [{"h":18},{"h":26}]
-                ]
-            },
-            {
-                "day":             "Wed",
-                "format_12":       "6:00 pm - 2:00 am",
-                "format_24":       "18:00 - 2:00",
-                "ranges":          [
-                    [{"h":18},{"h":26}]
-                ]
-            },
-            {
-                "day":             "Thu",
-                "format_12":       "6:00 pm - 2:00 am",
-                "format_24":       "18:00 - 2:00",
-                "ranges":          [
-                    [{"h":18},{"h":26}]
-                ]
-            },
-            {
-                "day":             "Fri",
-                "format_12":       "6:00 pm - 2:00 am",
-                "format_24":       "18:00 - 2:00",
-                "ranges":          [
-                    [{"h":18},{"h":26}]
-                ]
-            },
-            {
-                "day":             "Sat",
-                "format_12":       "6:00 pm - 2:00 am",
-                "format_24":       "18:00 - 2:00",
-                "ranges":          [
-                    [{"h":18},{"h":26}]
-                ]
-            }
-        ]
-    },
-    {
-        "name":                    "Ninkasi Craft Beer House",
-        "id":                      "r1AwPv2s",
-        "hoursDataSource":         "Yelp",
-        "hours":                   [
-            {
-                "day":             "Sun",
-                "format_12":       "6:00 pm - 2:00 am",
-                "format_24":       "18:00 - 2:00",
-                "ranges":          [
-                    [{"h":18},{"h":26}]
-                ]
-            },
-            {
-                "day":             "Mon",
-                "format_12":       "Closed",
-                "format_24":       "Closed",
-                "ranges":          null
             },
             {
                 "day":             "Tue",
@@ -9601,67 +9534,6 @@
                 "format_24":       "8:00 - 23:00",
                 "ranges":          [
                     [{"h":8},{"h":23}]
-                ]
-            }
-        ]
-    },
-    {
-        "name":                    "Prelibato Panificio con Cucina",
-        "id":                      "2T0cu4FF",
-        "hoursDataSource":         "Yelp",
-        "hours":                   [
-            {
-                "day":             "Sun",
-                "format_12":       "Closed",
-                "format_24":       "Closed",
-                "ranges":          null
-            },
-            {
-                "day":             "Mon",
-                "format_12":       "9:00 am - 8:00 pm",
-                "format_24":       "9:00 - 20:00",
-                "ranges":          [
-                    [{"h":9},{"h":20}]
-                ]
-            },
-            {
-                "day":             "Tue",
-                "format_12":       "9:00 am - 8:00 pm",
-                "format_24":       "9:00 - 20:00",
-                "ranges":          [
-                    [{"h":9},{"h":20}]
-                ]
-            },
-            {
-                "day":             "Wed",
-                "format_12":       "9:00 am - 8:00 pm",
-                "format_24":       "9:00 - 20:00",
-                "ranges":          [
-                    [{"h":9},{"h":20}]
-                ]
-            },
-            {
-                "day":             "Thu",
-                "format_12":       "9:00 am - 8:00 pm",
-                "format_24":       "9:00 - 20:00",
-                "ranges":          [
-                    [{"h":9},{"h":20}]
-                ]
-            },
-            {
-                "day":             "Fri",
-                "format_12":       "9:00 am - 8:00 pm",
-                "format_24":       "9:00 - 20:00",
-                "ranges":          [
-                    [{"h":9},{"h":20}]
-                ]
-            },
-            {
-                "day":             "Sat",
-                "format_12":       "9:00 am - 8:00 pm",
-                "format_24":       "9:00 - 20:00",
-                "ranges":          [
-                    [{"h":9},{"h":20}]
                 ]
             }
         ]

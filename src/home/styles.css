@@ -8,10 +8,37 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
+.placesList {
+    list-style: none;
+}
+
+.place {
+    margin-bottom: 3rem;
+}
+
+.placeIsClosed {
+    opacity: 0.3333;
+}
+
+.place__name {
+    font-size: 150%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.place__address {
+    /*color: green;*/
+}
+
+.place__neighborhood {
+    /*color: red;*/
+}
+
+
 @media screen and (max-width: 1024px) {
 
-  .content {
-    padding: 0 16px;
-  }
+    .content {
+        padding: 0 16px;
+    }
 
 }
