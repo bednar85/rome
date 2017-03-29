@@ -79,13 +79,17 @@ class HomePage extends React.Component {
   };
 
 
-  onChildChanged(newState) {
-    console.log('Current State: ', this.state);
-    console.log('onChildChanged: ', newState);
+  onChildChanged(updatedState) {
+    console.log('onChildChanged() ...');
+    console.log('\n');
 
     this.setState({
-      filterBarSelections: newState
+      filterBarSelections: updatedState
     });
+
+    console.log('onChildChanged updatedState argument: ', updatedState);
+    console.log('onChildChanged this.state: ', this.state);
+    console.log('\n');
   };
   render() {
     console.log('render() ...');

@@ -20,101 +20,33 @@ class FilterBar extends React.Component {
     this.state = {
       sortBy: 'distanceFromUs',
       distance: '100',
-      recommendationLevel: ['1', '2', '3', '4'],
-      interestLevel: ['1', '2', '3', '4'],
-      priceRange: '4'
+      recommendationLevel: ['4', '3', '2', '1'],
+      interestLevel: ['4', '3', '2', '1'],
+      priceRange: ['1', '2', '3', '4']
     };
   }
 
-  // componentDidMount() {
-  //   // var component = this;
-  // };
+  componentWillMount() {
+      this.props.callbackParent(this.state);
+  }
 
-  sortByChanged(newState) {
-    this.setState({
-      sortBy: newState
-    });
+  handleChange(refName, selections) {
+    console.log('this: ', this);
+    console.log('refName: ', refName);
+    console.log('selections: ', selections);
+    console.log('\n');
 
-    this.props.callbackParent(this.state);
+    var newState = {};
+    newState[refName] = selections;
+    
+    this.setState(newState);
 
-    // console.log('newState: ', newState);
-    // console.log('this.state: ', this.state);
-    // console.log('\n');
+    var updatedState = this.state;
+    updatedState[refName] = newState[refName];
+    console.log('FilterBar updatedState variable: ', updatedState);
+
+    this.props.callbackParent(updatedState);
   };
-
-  distanceChanged(newState) {
-    this.setState({
-      distance: newState
-    });
-
-    this.props.callbackParent(this.state);
-
-    // console.log('newState: ', newState);
-    // console.log('this.state: ', this.state);
-    // console.log('\n');
-  };
-
-  recommendationLevelChanged(newState) {
-    this.setState({
-      recommendationLevel: newState
-    });
-
-    this.props.callbackParent(this.state);
-
-    // console.log('newState: ', newState);
-    // console.log('this.state: ', this.state);
-    // console.log('\n');
-  };
-
-  interestLevelChanged(newState) {
-    this.setState({
-      interestLevel: newState
-    });
-
-    this.props.callbackParent(this.state);
-
-    // console.log('newState: ', newState);
-    // console.log('this.state: ', this.state);
-    // console.log('\n');
-  };
-
-  priceRangeChanged(newState) {
-    this.setState({
-      priceRange: newState
-    });
-
-    this.props.callbackParent(this.state);
-
-    // console.log('newState: ', newState);
-    // console.log('this.state: ', this.state);
-    // console.log('\n');
-  };
-
-  // updateSelections() {    
-  //   console.log('sortByGroup: ', this.refs.sortByGroup.state.value);
-  //   console.log('distanceGroup: ', this.refs.distanceGroup.state.value);
-  //   console.log('recommendationLevelGroup: ', this.refs.recommendationLevelGroup.state.value);
-  //   console.log('interestLevelGroup: ', this.refs.interestLevelGroup.state.value);
-  //   console.log('priceRangeGroup: ', this.refs.priceRangeGroup.state.value);
-  //   console.log('\n');
-
-  //   var newState = {
-  //     sortByGroup: this.refs.sortByGroup.state.value,
-  //     distanceGroup: this.refs.distanceGroup.state.value,
-  //     recommendationLevelGroup: this.refs.recommendationLevelGroup.state.value,
-  //     interestLevelGroup: this.refs.interestLevelGroup.state.value,
-  //     priceRangeGroup: this.refs.priceRangeGroup.state.value
-  //   };
-
-  //   this.setState(newState);
-
-    // console.log('newState: ', newState);
-  //   console.log('\n');
-
-  //   console.log('this.state: ', this.state);
-  //   console.log('\n');
-  // };
-
 
 
 
@@ -129,9 +61,9 @@ class FilterBar extends React.Component {
       <div>
         <RadioGroup
           name="sortBy"
-          ref="sortByGroup"
+          ref="sortBy"
           selectedValue={this.state.sortBy}
-          onChange={this.sortByChanged.bind(this)}>
+          onChange={this.handleChange.bind(this, 'sortBy')}>
           <label><Radio value="distanceFromUs" />Distance From Us</label>
           <label><Radio value="distanceFromHotel" />Distance From Hotel</label>
           <label><Radio value="mostRecommended" />Most Recommended</label>
@@ -140,44 +72,44 @@ class FilterBar extends React.Component {
         </RadioGroup>
         <RadioGroup
           name="distance"
-          ref="distanceGroup"
+          ref="distance"
           selectedValue={this.state.distance}
-          onChange={this.distanceChanged.bind(this)}>
+          onChange={this.handleChange.bind(this, 'distance')}>
           <label><Radio value="0.5" />Within 4 Blocks</label>
           <label><Radio value="1.5" />Walking (1.5 mi)</label>
           <label><Radio value="5" />Bus/Subway (5 mi)</label>
-          <label><Radio value="100" />All</label>
+          <label><Radio value="100" />Show All</label>
         </RadioGroup>
         <CheckboxGroup
           name="recommendationLevel"
-          ref="recommendationLevelGroup"
+          ref="recommendationLevel"
           value={this.state.recommendationLevel}
-          onChange={this.recommendationLevelChanged.bind(this)}>
-          <label><Checkbox value="1" />Somewhat Recommended</label>
-          <label><Checkbox value="2" />Recommended</label>
-          <label><Checkbox value="3" />Highly Recommended</label>
+          onChange={this.handleChange.bind(this, 'recommendationLevel')}>
           <label><Checkbox value="4" />Very Highly Recommended</label>
+          <label><Checkbox value="3" />Highly Recommended</label>
+          <label><Checkbox value="2" />Recommended</label>
+          <label><Checkbox value="1" />Somewhat Recommended</label>
         </CheckboxGroup>
         <CheckboxGroup
           name="interestLevel"
-          ref="interestLevelGroup"
+          ref="interestLevel"
           value={this.state.interestLevel}
-          onChange={this.interestLevelChanged.bind(this)}>
-          <label><Checkbox value="1" />Visit If Possible</label>
+          onChange={this.handleChange.bind(this, 'interestLevel')}>
+          <label><Checkbox value="4" />Must Visit</label>
           <label><Checkbox value="3" />Try Hard To Visit</label>
           <label><Checkbox value="2" />Try To Visit</label>
-          <label><Checkbox value="4" />Must Visit</label>
+          <label><Checkbox value="1" />Visit If Possible</label>
         </CheckboxGroup>
-        <RadioGroup
+        <CheckboxGroup
           name="priceRange"
-          ref="priceRangeGroup"
-          selectedValue={this.state.priceRange}
-          onChange={this.priceRangeChanged.bind(this)}>
-          <label><Radio value="1" />€</label>
-          <label><Radio value="2" />€€</label>
-          <label><Radio value="3" />€€€</label>
-          <label><Radio value="4" />€€€€</label>
-        </RadioGroup>
+          ref="priceRange"
+          value={this.state.priceRange}
+          onChange={this.handleChange.bind(this, 'priceRange')}>
+          <label><Checkbox value="1" />€</label>
+          <label><Checkbox value="2" />€€</label>
+          <label><Checkbox value="3" />€€€</label>
+          <label><Checkbox value="4" />€€€€</label>
+        </CheckboxGroup>
       </div>
     );
   }
