@@ -22,7 +22,8 @@ class FilterBar extends React.Component {
       distance: '100',
       recommendationLevel: ['4', '3', '2', '1'],
       interestLevel: ['4', '3', '2', '1'],
-      priceRange: ['1', '2', '3', '4']
+      priceRange: ['1', '2', '3', '4'],
+      openNow: 'true'
     };
   }
 
@@ -110,6 +111,14 @@ class FilterBar extends React.Component {
           <label><Checkbox value="3" />€€€</label>
           <label><Checkbox value="4" />€€€€</label>
         </CheckboxGroup>
+        <RadioGroup
+          name="openNow"
+          ref="openNow"
+          selectedValue={this.state.openNow}
+          onChange={this.handleChange.bind(this, 'openNow')}>
+          <label><Radio value="true" />Open Now</label>
+          <label><Radio value="false" />Show All</label>
+        </RadioGroup>
       </div>
     );
   }

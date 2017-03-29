@@ -9,18 +9,20 @@
  */
 
 import React from 'react';
+import FilterBar from '../../components/FilterBar';
 import cx from 'classnames';
 import s from './PlacesList.css';
 
 import moment from 'moment';
 
 class PlacesList extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     places: []
-  //   };
-  // };
+  constructor(props) {
+    super(props);
+    this.state = {
+      places: [],
+      filterBarSelections: {}
+    };
+  }
 
   checkIfOpen(now, today, todayMorning, yesterday, place) {
     // console.log('place.name: ', place.name);
@@ -81,13 +83,40 @@ class PlacesList extends React.Component {
     }
   };
 
+
+
+  onChildChanged(updatedState) {
+    console.log('onChildChanged() ...');
+    console.log('\n');
+
+    this.setState({
+      filterBarSelections: updatedState
+    });
+
+    console.log('onChildChanged updatedState argument: ', updatedState);
+    console.log('onChildChanged this.state: ', this.state);
+    console.log('\n');
+  }
+
+
+
+
+
+
+
+
+
   render() {
     console.log('render() ...');
     console.log('\n');
 
     var component = this;
 
-    console.log('component.props.places: ', component.props.places);
+    // if open now is set in filter bar show only the locations that are open now otherwise show the entire list, display locations that are closed as more transparent/dim
+    var placesOpenNow = component.state.filterBarSelections.openNow === 'true' ? true : false;
+    var placesClassNames = cx(s.places, {
+      [s.placesOpenNow]: placesOpenNow
+    });
 
     // set moment related data
     // for tomorrow var if today + 1 = 7 set tomorrow to 0 (Sunday)
@@ -135,12 +164,14 @@ class PlacesList extends React.Component {
     });
 
     return (
-      <div className={s.places}>
-        {places}
+      <div>
+        <FilterBar callbackParent={this.onChildChanged.bind(this)} />
+        <ul className={placesClassNames}>
+          {places}
+        </ul>
       </div>
     );
   }
-
 }
 
 export default PlacesList;

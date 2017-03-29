@@ -2,6 +2,10 @@
     list-style: none;
 }
 
+.placesOpenNow .placeIsClosed {
+    display: none;
+}
+
 .place {
     margin-bottom: 3rem;
 }
