@@ -10,6 +10,7 @@
 
 import React, { PropTypes } from 'react';
 import Layout from '../../components/Layout';
+import FilterBar from '../../components/FilterBar';
 import PlacesList from '../../components/PlacesList';
 import cx from 'classnames';
 import s from './styles.css';
@@ -35,7 +36,8 @@ class HomePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      places: googleSheetsData
+      places: googleSheetsData,
+      filterBarSelections: {}
     };
   };
 
@@ -76,6 +78,15 @@ class HomePage extends React.Component {
     });
   };
 
+
+  onChildChanged(newState) {
+    console.log('Current State: ', this.state);
+    console.log('onChildChanged: ', newState);
+
+    this.setState({
+      filterBarSelections: newState
+    });
+  };
   render() {
     console.log('render() ...');
     console.log('\n');
@@ -86,6 +97,7 @@ class HomePage extends React.Component {
 
     return (
       <Layout className={s.content}>
+        <FilterBar callbackParent={this.onChildChanged.bind(this)} />
         <PlacesList places={component.state.places} />
       </Layout>
     );

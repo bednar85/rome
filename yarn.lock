@@ -5212,6 +5212,10 @@ rc@^1.0.1, rc@^1.1.2, rc@^1.1.6, rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~1.0.4"
 
+react-checkbox-group@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/react-checkbox-group/-/react-checkbox-group-3.1.0.tgz#53dd3a667b627bc28adb44ced98275f81171d205"
+
 react-deep-force-update@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-2.0.1.tgz#4f7f6c12c3e7de42f345992a3c518236fa1ecad3"
@@ -5248,6 +5252,10 @@ react-proxy@^3.0.0-alpha.0:
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-3.0.0-alpha.1.tgz#4400426bcfa80caa6724c7755695315209fa4b07"
   dependencies:
     lodash "^4.6.1"
+
+react-radio-group@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-radio-group/-/react-radio-group-3.0.1.tgz#b8890cc7c159de4522a918e548dde38bc2493bc1"
 
 react-redux@^5.0.2:
   version "5.0.2"
