@@ -19,7 +19,7 @@ class FilterBar extends React.Component {
     super(props);
     this.state = {
       sortBy: 'distanceFromUs',
-      distance: '100',
+      distance: '5000',
       recommendedLevel: ['4', '3', '2', '1'],
       interestLevel: ['4', '3', '2', '1'],
       priceRange: ['1', '2', '3', '4'],
@@ -72,7 +72,7 @@ class FilterBar extends React.Component {
           <label><Radio value="0.5" />Within 4 Blocks</label>
           <label><Radio value="1.5" />Walking (1.5 mi)</label>
           <label><Radio value="5" />Bus/Subway (5 mi)</label>
-          <label><Radio value="100" />Show All</label>
+          <label><Radio value="5000" />Show All</label>
         </RadioGroup>
         <CheckboxGroup
           name="recommendedLevel"

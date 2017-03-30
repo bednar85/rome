@@ -40,7 +40,14 @@ class PlacesList extends React.Component {
     var inputData = collection;
     var outputData = inputData;
     var filterBar = this.state.filterBarSelections;
+    
     var sortBy = filterBar.sortBy;
+
+    // convert distance to number
+    var distance = Number(filterBar.distance);
+
+    // console.log('distance: ', distance);
+    // console.log('\n');
 
     // convert each array of strings to arrays of numbers
     var recommendedLevel = convertArray(filterBar.recommendedLevel);
@@ -49,6 +56,8 @@ class PlacesList extends React.Component {
 
     // Filter by Category
     // ...
+
+    console.log('inputData (after recommendedLevel filter): ', inputData);
 
     // Filter by Recommendation Level
     // ...
@@ -60,7 +69,7 @@ class PlacesList extends React.Component {
       }
     });
 
-    // console.log('outputData (after recommendedLevel filter): ', outputData);
+    console.log('outputData (after recommendedLevel filter): ', outputData);
 
     // Filter by Interest
     // filter data when interestLevel is less than or equal to selected price
@@ -72,7 +81,7 @@ class PlacesList extends React.Component {
       }
     });
 
-    // console.log('outputData (after ryanInterestLevel filter): ', outputData);
+    console.log('outputData (after ryanInterestLevel filter): ', outputData);
 
     // Filter by Price
     // if place.priceRange is in priceRange array or if place.priceRange is "" include place in outputData
@@ -84,20 +93,25 @@ class PlacesList extends React.Component {
       }
     });
 
-    // console.log('outputData (after priceRange filter): ', outputData);
+    console.log('outputData (after priceRange filter): ', outputData);
 
     // Filter by Distance
     // if place.distanceFromUs is less than or equal to filterBar.distance include place in outputData
     outputData = _.filter(outputData, function(place) {
+      if(place.distanceFromHotel === undefined || place.distanceFromUs === undefined) {
+        return true;
+      } else {
         // !IMPORTANT need to change this so it is always using the distanceFromUs
-        return place.distanceFromHotel <= filterBar.distance;
+        return place.distanceFromHotel <= distance;
+      }
     });
 
-    // console.log('outputData (after distanceFromHotel filter): ', outputData);
-    // console.log('output data: ', _.map(_.sortBy(outputData, sortBy)));
+    console.log('outputData (after distanceFromHotel filter): ', outputData);
 
     // Sort Output
     var outputData = _.map(_.sortBy(outputData, sortBy));
+
+    console.log('outputData (after sorting): ', outputData);
 
     // Return
     if(filterBar.sortBy === 'percentRecommended' || filterBar.sortBy === 'ryanInterestLevel') {
@@ -192,8 +206,13 @@ class PlacesList extends React.Component {
 
     var component = this;
 
+
+    console.log('component.props.places: ', component.props.places);
+
     // if filterBarSelections isn't populated yet, use the unfiltered data
-    var data = _.isEmpty(component.state.filterBarSelections) ? component.props.places : component.filterData(component.props.places) 
+    var data = _.isEmpty(component.state.filterBarSelections) ? component.props.places : component.filterData(component.props.places);
+
+    console.log('data: ', data);
 
     // if open now is set in filter bar show only the locations that are open now otherwise show the entire list, display locations that are closed as more transparent/dim
     var placesOpenNow = component.state.filterBarSelections.openNow === 'true' ? true : false;
