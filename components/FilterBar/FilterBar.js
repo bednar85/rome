@@ -20,7 +20,7 @@ class FilterBar extends React.Component {
     this.state = {
       sortBy: 'distanceFromUs',
       distance: '100',
-      recommendationLevel: ['4', '3', '2', '1'],
+      recommendedLevel: ['4', '3', '2', '1'],
       interestLevel: ['4', '3', '2', '1'],
       priceRange: ['1', '2', '3', '4'],
       openNow: 'true'
@@ -32,10 +32,10 @@ class FilterBar extends React.Component {
   }
 
   handleChange(refName, selections) {
-    console.log('this: ', this);
-    console.log('refName: ', refName);
-    console.log('selections: ', selections);
-    console.log('\n');
+    // console.log('this: ', this);
+    // console.log('refName: ', refName);
+    // console.log('selections: ', selections);
+    // console.log('\n');
 
     var newState = {};
     newState[refName] = selections;
@@ -44,16 +44,10 @@ class FilterBar extends React.Component {
 
     var updatedState = this.state;
     updatedState[refName] = newState[refName];
-    console.log('FilterBar updatedState variable: ', updatedState);
+    // console.log('FilterBar updatedState variable: ', updatedState);
 
     this.props.callbackParent(updatedState);
-  };
-
-
-
-
-
-
+  }
 
   render() {
     var component = this;
@@ -67,9 +61,8 @@ class FilterBar extends React.Component {
           onChange={this.handleChange.bind(this, 'sortBy')}>
           <label><Radio value="distanceFromUs" />Distance From Us</label>
           <label><Radio value="distanceFromHotel" />Distance From Hotel</label>
-          <label><Radio value="mostRecommended" />Most Recommended</label>
-          <label><Radio value="mostInteresting" />Most Interesting</label>
-          <label><Radio value="priceRange" />Price Range</label>
+          <label><Radio value="percentRecommended" />Most Recommended</label>
+          <label><Radio value="ryanInterestLevel" />Most Interesting</label>
         </RadioGroup>
         <RadioGroup
           name="distance"
@@ -82,10 +75,10 @@ class FilterBar extends React.Component {
           <label><Radio value="100" />Show All</label>
         </RadioGroup>
         <CheckboxGroup
-          name="recommendationLevel"
-          ref="recommendationLevel"
-          value={this.state.recommendationLevel}
-          onChange={this.handleChange.bind(this, 'recommendationLevel')}>
+          name="recommendedLevel"
+          ref="recommendedLevel"
+          value={this.state.recommendedLevel}
+          onChange={this.handleChange.bind(this, 'recommendedLevel')}>
           <label><Checkbox value="4" />Very Highly Recommended</label>
           <label><Checkbox value="3" />Highly Recommended</label>
           <label><Checkbox value="2" />Recommended</label>

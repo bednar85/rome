@@ -13,15 +13,111 @@ import FilterBar from '../../components/FilterBar';
 import cx from 'classnames';
 import s from './PlacesList.css';
 
+import _ from 'lodash';
 import moment from 'moment';
 
 class PlacesList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      places: [],
       filterBarSelections: {}
     };
+  }
+
+  filterData(collection) {
+    console.log('filterData');
+
+    function convertArray(input) {
+        var output = [];
+
+        _.forEach(input, function(value) {
+          output.push(Number(value));
+        });
+
+        return output;
+    }
+
+    var inputData = collection;
+    var outputData = inputData;
+    var filterBar = this.state.filterBarSelections;
+    var sortBy = filterBar.sortBy;
+
+    // convert each array of strings to arrays of numbers
+    var recommendedLevel = convertArray(filterBar.recommendedLevel);
+    var interestLevel = convertArray(filterBar.interestLevel);
+    var priceRange = convertArray(filterBar.priceRange);
+
+    // Filter by Category
+    // ...
+
+    // Filter by Recommendation Level
+    // ...
+    outputData = _.filter(outputData, function(place) {
+      if(typeof place.recommendedLevel === 'string') {
+        return true;
+      } else if(typeof place.recommendedLevel === 'number') {
+        return recommendedLevel.includes(place.recommendedLevel);
+      }
+    });
+
+    // console.log('outputData (after recommendedLevel filter): ', outputData);
+
+    // Filter by Interest
+    // filter data when interestLevel is less than or equal to selected price
+    outputData = _.filter(outputData, function(place) {
+      if(typeof place.ryanInterestLevel === 'string') {
+        return true;
+      } else if(typeof place.ryanInterestLevel === 'number') {
+        return interestLevel.includes(place.ryanInterestLevel);
+      }
+    });
+
+    // console.log('outputData (after ryanInterestLevel filter): ', outputData);
+
+    // Filter by Price
+    // if place.priceRange is in priceRange array or if place.priceRange is "" include place in outputData
+    outputData = _.filter(outputData, function(place) {
+      if(typeof place.priceRange === 'string') {
+        return true;
+      } else if(typeof place.priceRange === 'number') {
+        return priceRange.includes(place.priceRange);
+      }
+    });
+
+    // console.log('outputData (after priceRange filter): ', outputData);
+
+    // Filter by Distance
+    // if place.distanceFromUs is less than or equal to filterBar.distance include place in outputData
+    outputData = _.filter(outputData, function(place) {
+        // !IMPORTANT need to change this so it is always using the distanceFromUs
+        return place.distanceFromHotel <= filterBar.distance;
+    });
+
+    // console.log('outputData (after distanceFromHotel filter): ', outputData);
+    // console.log('output data: ', _.map(_.sortBy(outputData, sortBy)));
+
+    // Sort Output
+    var outputData = _.map(_.sortBy(outputData, sortBy));
+
+    // Return
+    if(filterBar.sortBy === 'percentRecommended' || filterBar.sortBy === 'ryanInterestLevel') {
+      return _.reverse(outputData);
+    } else {
+      return outputData;
+    }
+  };
+
+  onChildChanged(updatedState) {
+    console.log('onChildChanged() ...');
+    console.log('\n');
+
+    this.setState({
+      filterBarSelections: updatedState
+    });
+
+    console.log('onChildChanged updatedState argument: ', updatedState);
+    console.log('onChildChanged this.state: ', this.state);
+    console.log('\n');
   }
 
   checkIfOpen(now, today, todayMorning, yesterday, place) {
@@ -81,23 +177,7 @@ class PlacesList extends React.Component {
       // return true if place is open
       return results.includes(true);
     }
-  };
-
-
-
-  onChildChanged(updatedState) {
-    console.log('onChildChanged() ...');
-    console.log('\n');
-
-    this.setState({
-      filterBarSelections: updatedState
-    });
-
-    console.log('onChildChanged updatedState argument: ', updatedState);
-    console.log('onChildChanged this.state: ', this.state);
-    console.log('\n');
   }
-
 
 
 
@@ -111,6 +191,9 @@ class PlacesList extends React.Component {
     console.log('\n');
 
     var component = this;
+
+    // if filterBarSelections isn't populated yet, use the unfiltered data
+    var data = _.isEmpty(component.state.filterBarSelections) ? component.props.places : component.filterData(component.props.places) 
 
     // if open now is set in filter bar show only the locations that are open now otherwise show the entire list, display locations that are closed as more transparent/dim
     var placesOpenNow = component.state.filterBarSelections.openNow === 'true' ? true : false;
@@ -132,7 +215,7 @@ class PlacesList extends React.Component {
         tomorrow = today + 1 === 7 ? 0 : today + 1,
         yesterday = today - 1 < 0 ? 6 : today - 1;
 
-    var places = component.props.places.map(function(place, i) {
+    var places = data.map(function(place, i) {
       // check if place is open
       var placeIsOpen = component.checkIfOpen(now, today, todayMorning, yesterday, place);
 
@@ -159,6 +242,20 @@ class PlacesList extends React.Component {
               <p className="place__">{place.hours[tomorrow].day} – {place.hours[tomorrow].format_12}</p>
             </div>
           )}
+          {typeof place.latitude === 'string' || typeof place.longitude === 'string' ? (
+            <div className="place__">
+              <p>No latlong.net Data Yet</p>
+            </div>
+          ) : (
+            <div className="place__">
+              <p>distanceFromHotel: {place.distanceFromHotel} miles</p>
+              <p>distanceFromUs: {place.distanceFromUs} miles</p>
+            </div>
+          )}
+          <p>percentRecommended: {place.percentRecommended}</p>
+          <p>recommendedLevel: {place.recommendedLevel}</p>
+          <p>ryanInterestLevel: {place.ryanInterestLevel}</p>
+          <p>priceRange: {place.priceRange}</p>
         </li>
       );
     });
