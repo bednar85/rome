@@ -25,7 +25,7 @@ class PlacesList extends React.Component {
   }
 
   filterData(collection) {
-    console.log('filterData');
+    // console.log('filterData');
 
     function convertArray(input) {
         var output = [];
@@ -69,7 +69,7 @@ class PlacesList extends React.Component {
       }
     });
 
-    console.log('outputData (after recommendedLevel filter): ', outputData);
+    // console.log('outputData (after recommendedLevel filter): ', outputData);
 
     // Filter by Interest
     // filter data when interestLevel is less than or equal to selected price
@@ -81,7 +81,7 @@ class PlacesList extends React.Component {
       }
     });
 
-    console.log('outputData (after ryanInterestLevel filter): ', outputData);
+    // console.log('outputData (after ryanInterestLevel filter): ', outputData);
 
     // Filter by Price
     // if place.priceRange is in priceRange array or if place.priceRange is "" include place in outputData
@@ -93,7 +93,7 @@ class PlacesList extends React.Component {
       }
     });
 
-    console.log('outputData (after priceRange filter): ', outputData);
+    // console.log('outputData (after priceRange filter): ', outputData);
 
     // Filter by Distance
     // if place.distanceFromUs is less than or equal to filterBar.distance include place in outputData
@@ -106,7 +106,7 @@ class PlacesList extends React.Component {
       }
     });
 
-    console.log('outputData (after distanceFromHotel filter): ', outputData);
+    // console.log('outputData (after distanceFromHotel filter): ', outputData);
 
     // Sort Output
     var outputData = _.map(_.sortBy(outputData, sortBy));
@@ -122,16 +122,16 @@ class PlacesList extends React.Component {
   };
 
   onChildChanged(updatedState) {
-    console.log('onChildChanged() ...');
-    console.log('\n');
+    // console.log('onChildChanged() ...');
+    // console.log('\n');
 
     this.setState({
       filterBarSelections: updatedState
     });
 
-    console.log('onChildChanged updatedState argument: ', updatedState);
-    console.log('onChildChanged this.state: ', this.state);
-    console.log('\n');
+    // console.log('onChildChanged updatedState argument: ', updatedState);
+    // console.log('onChildChanged this.state: ', this.state);
+    // console.log('\n');
   }
 
   checkIfOpen(now, today, todayMorning, yesterday, place) {
@@ -193,6 +193,63 @@ class PlacesList extends React.Component {
     }
   }
 
+  iconList(iconName, repeat) {
+    var icon = {
+      'airbnb': {
+        '_src': 'http://ryanabednar.com/rome/icons/airbnb.svg',
+        '_class': s.icon__airbnb
+      },
+      'dollar': {
+        '_src': 'http://ryanabednar.com/rome/icons/dollar.svg',
+        '_class': s.icon__dollar
+      },
+      'heart': {
+        '_src': 'http://ryanabednar.com/rome/icons/heart.svg',
+        '_class': s.icon__heart
+      },
+      'like': {
+        '_src': 'http://ryanabednar.com/rome/icons/like.svg',
+        '_class': s.icon__like
+      },
+      'us': {
+        '_src': 'http://ryanabednar.com/rome/icons/us.svg',
+        '_class': s.icon__us
+      }
+    };
+
+    var output = [];
+
+    // console.log('icon[iconName]: ', icon[iconName]);
+
+    if(repeat) {
+      var i = 0;
+      while (i < repeat) {
+        i++;
+        output.push(<img className={icon[iconName]._class} src={icon[iconName]._src} />);
+      }
+    }
+    else {
+      output.push(<img className={icon[iconName]._class} src={icon[iconName]._src} />);
+    }
+
+    return output;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -205,6 +262,8 @@ class PlacesList extends React.Component {
     console.log('\n');
 
     var component = this;
+
+    
 
 
     console.log('component.props.places: ', component.props.places);
@@ -238,13 +297,20 @@ class PlacesList extends React.Component {
       // check if place is open
       var placeIsOpen = component.checkIfOpen(now, today, todayMorning, yesterday, place);
 
-      // console.log('placeIsOpen: ', placeIsOpen);
-      // console.log('\n');
-
       // if a place is closed add placeIsClosed class to place
       var placeClassNames = cx(s.place, {
         [s.placeIsClosed]: !placeIsOpen
       });
+
+      // console.log('placeIsOpen: ', placeIsOpen);
+      // console.log('\n');
+
+
+
+      var recommendedIcons = component.iconList('like', place.recommendedLevel);
+      var interestIcons = component.iconList('heart', place.ryanInterestLevel);
+      var priceIcons = component.iconList('dollar', place.priceRange);
+      // console.log('priceIcons: ', priceIcons);
 
       return (
         <li className={placeClassNames} key={i}>
@@ -273,8 +339,11 @@ class PlacesList extends React.Component {
           )}
           <p>percentRecommended: {place.percentRecommended}</p>
           <p>recommendedLevel: {place.recommendedLevel}</p>
+          <div>{recommendedIcons}</div>
           <p>ryanInterestLevel: {place.ryanInterestLevel}</p>
+          <div>{interestIcons}</div>
           <p>priceRange: {place.priceRange}</p>
+          <div>{priceIcons}</div>
         </li>
       );
     });

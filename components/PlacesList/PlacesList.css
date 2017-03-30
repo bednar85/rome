@@ -27,3 +27,35 @@
 .place__neighborhood {
     /*color: red;*/
 }
+
+
+
+/*.icon__airbnb {
+    display: inline-block;
+    height: 30px;
+    margin-right: 10px;
+}*/
+
+.icon__dollar {
+    display: inline-block;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.icon__heart {
+    display: inline-block;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.icon__like {
+    display: inline-block;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/*.icon__us {
+    display: inline-block;
+    height: 30px;
+    margin-right: 10px;
+}*/
