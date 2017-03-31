@@ -196,24 +196,24 @@ class PlacesList extends React.Component {
   iconList(iconName, repeat) {
     var icon = {
       'airbnb': {
-        '_src': 'http://ryanabednar.com/rome/icons/airbnb.svg',
-        '_class': s.icon__airbnb
+        '_src': 'https://storage.googleapis.com/wheninrome-275b5.appspot.com/icons/airbnb.svg',
+        '_class': s.place__icon_airbnb
       },
       'dollar': {
-        '_src': 'http://ryanabednar.com/rome/icons/dollar.svg',
-        '_class': s.icon__dollar
+        '_src': 'https://storage.googleapis.com/wheninrome-275b5.appspot.com/icons/dollar.svg',
+        '_class': s.place__icon_dollar
       },
       'heart': {
-        '_src': 'http://ryanabednar.com/rome/icons/heart.svg',
-        '_class': s.icon__heart
+        '_src': 'https://storage.googleapis.com/wheninrome-275b5.appspot.com/icons/heart.svg',
+        '_class': s.place__icon_heart
       },
       'like': {
-        '_src': 'http://ryanabednar.com/rome/icons/like.svg',
-        '_class': s.icon__like
+        '_src': 'https://storage.googleapis.com/wheninrome-275b5.appspot.com/icons/like.svg',
+        '_class': s.place__icon_like
       },
       'us': {
-        '_src': 'http://ryanabednar.com/rome/icons/us.svg',
-        '_class': s.icon__us
+        '_src': 'https://storage.googleapis.com/wheninrome-275b5.appspot.com/icons/us.svg',
+        '_class': s.place__icon_us
       }
     };
 
@@ -301,49 +301,48 @@ class PlacesList extends React.Component {
       var placeClassNames = cx(s.place, {
         [s.placeIsClosed]: !placeIsOpen
       });
-
       // console.log('placeIsOpen: ', placeIsOpen);
       // console.log('\n');
 
-
+      var hoursInfoClassNames = cx(s.place__hours_info, s.place__hours_info__today);
 
       var recommendedIcons = component.iconList('like', place.recommendedLevel);
       var interestIcons = component.iconList('heart', place.ryanInterestLevel);
       var priceIcons = component.iconList('dollar', place.priceRange);
-      // console.log('priceIcons: ', priceIcons);
 
       return (
         <li className={placeClassNames} key={i}>
-          <h1 className={s.place__name}>{place.nameInItalian}</h1>
-          <p className={s.place__address}>{place.address}</p>
-          <p className={s.place__neighborhood}>{place.neighborhood}</p>
-          {typeof place.hours === 'string' ? (
-            <div className="place__">
-              <p className="place__">{place.hours}</p>
-            </div>
-          ) : (
-            <div className="place__">
-              <p className="place__">{place.hours[today].day} – {place.hours[today].format_12}</p>
-              <p className="place__">{place.hours[tomorrow].day} – {place.hours[tomorrow].format_12}</p>
-            </div>
-          )}
-          {typeof place.latitude === 'string' || typeof place.longitude === 'string' ? (
-            <div className="place__">
-              <p>No latlong.net Data Yet</p>
-            </div>
-          ) : (
-            <div className="place__">
-              <p>distanceFromHotel: {place.distanceFromHotel} miles</p>
-              <p>distanceFromUs: {place.distanceFromUs} miles</p>
-            </div>
-          )}
-          <p>percentRecommended: {place.percentRecommended}</p>
-          <p>recommendedLevel: {place.recommendedLevel}</p>
-          <div>{recommendedIcons}</div>
-          <p>ryanInterestLevel: {place.ryanInterestLevel}</p>
-          <div>{interestIcons}</div>
-          <p>priceRange: {place.priceRange}</p>
-          <div>{priceIcons}</div>
+          <div className={s.place__primary_content}>
+            <h1 className={s.place__name}>{place.nameInItalian}</h1>
+            <p className={s.place__categories}>{place.categories.map((category, i) => <span key={i}>{!!i && ", "}{category}</span>)}</p>
+            <p className={s.place__location_info}>{place.address} • {place.neighborhoods.map((neighborhood, i) => <span key={i}>{!!i && ", "}{neighborhood}</span>)}</p>
+            {typeof place.hours === 'string' ? (
+              <div className={s.place__hours_info_wrapper}>
+                <div className={s.place__hours_info}>{place.hours}</div>
+              </div>
+            ) : (
+              <div className={s.place__hours_info_wrapper}>
+                <div className={hoursInfoClassNames}>{place.hours[today].day} – {place.hours[today].format_12}</div>
+                <div className={s.place__hours_info}>{place.hours[tomorrow].day} – {place.hours[tomorrow].format_12}</div>
+              </div>
+            )}
+            <p className={s.place__recommendedBy}>{place.recommendedBy.map((source, i) => <span key={i}>{!!i && ", "}{source}</span>)}</p>
+          </div>
+          <div className={s.place__secondary_content}>
+            <div className={s.place__icon_group}>{recommendedIcons}</div>
+            <div className={s.place__icon_group}>{interestIcons}</div>
+            <div className={s.place__icon_group}>{priceIcons}</div>
+            {typeof place.latitude === 'string' || typeof place.longitude === 'string' ? (
+              <div className={s.place__distance_info_wrapper}>
+                <p className="place__distance_info">No latlong.net Data Yet</p>
+              </div>
+            ) : (
+              <div className={s.place__distance_info_wrapper}>
+                <div className={s.place__distance_info}>{place.distanceFromHotel} mi <img className={s.place__icon_airbnb} src="https://storage.googleapis.com/wheninrome-275b5.appspot.com/icons/airbnb.svg" /></div>
+                <div className={s.place__distance_info}>{place.distanceFromUs} mi <img className={s.place__icon_us} src="https://storage.googleapis.com/wheninrome-275b5.appspot.com/icons/us.svg" /></div>
+              </div>
+            )}
+          </div>
         </li>
       );
     });

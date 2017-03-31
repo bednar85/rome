@@ -1,5 +1,7 @@
 .places {
     list-style: none;
+    margin: 0;
+    padding: 0 20px;
 }
 
 .placesOpenNow .placeIsClosed {
@@ -7,7 +9,10 @@
 }
 
 .place {
-    margin-bottom: 3rem;
+    background: #ffffff;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
 }
 
 .placeIsClosed {
@@ -17,45 +22,82 @@
 .place__name {
     font-size: 150%;
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 15px;
 }
 
-.place__address {
-    /*color: green;*/
+.place__categories {
+    margin-bottom: 15px;
 }
 
-.place__neighborhood {
-    /*color: red;*/
+.place__location_info {
+    margin-bottom: 15px;
 }
 
 
+.place__primary_content {
+    box-sizing: border-box;
+    float: left;
+    padding-right: 20px;
+    width: 50%;
+}
 
-/*.icon__airbnb {
+.place__hours_info_wrapper {
+    margin-bottom: 15px;
+}
+
+.place__hours_info {}
+
+.place__hours_info__today {
+    font-weight: bold;
+}
+
+.place__secondary_content {
+    float: left;
+    width: 50%;
+}
+
+.place__icon_group {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.place__icon_airbnb {
     display: inline-block;
     height: 30px;
-    margin-right: 10px;
-}*/
-
-.icon__dollar {
-    display: inline-block;
-    height: 35px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.icon__heart {
+.place__icon_dollar {
     display: inline-block;
     height: 30px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.icon__like {
+.place__icon_heart {
     display: inline-block;
-    height: 30px;
-    margin-right: 10px;
+    height: 25px;
+    margin-left: 10px;
 }
 
-/*.icon__us {
+.place__icon_like {
     display: inline-block;
     height: 30px;
-    margin-right: 10px;
-}*/
+    margin-left: 10px;
+}
+
+.place__icon_us {
+    display: inline-block;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.place__distance_info_wrapper {}
+
+.place__distance_info {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.place__distance_info:last-child {
+    margin-bottom: 0;
+}

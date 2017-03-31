@@ -12,8 +12,8 @@
     "categories" : [
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via Cavour 289, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Cavour 289",
+    "neighborhoods" : [
       "Monti"
     ],
     "latitude" : 41.894017,
@@ -35,8 +35,8 @@
     "categories" : [
       "Roman"
     ],
-    "address" : "Via Santa Maria dè Calderari 38, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Santa Maria dè Calderari 38",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.893034,
@@ -61,8 +61,8 @@
       "Seafood",
       "Pizza"
     ],
-    "address" : "Via Luigi Orlando 2, 00154 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Luigi Orlando 2",
+    "neighborhoods" : [
       "Ostiense"
     ],
     "latitude" : 41.862788,
@@ -84,8 +84,8 @@
     "categories" : [
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via Vodice 21A, 00195 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Vodice 21A",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.918067,
@@ -109,8 +109,8 @@
       "Lounges",
       "Italian"
     ],
-    "address" : "Piazza in Piscinula 51, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza in Piscinula 51",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.889204,
@@ -132,8 +132,8 @@
     "categories" : [
       "Wineries"
     ],
-    "address" : "Via del Viminale 62, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Viminale 62",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.899794,
@@ -157,8 +157,8 @@
       "Italian",
       "Sandwiches"
     ],
-    "address" : "Via Tunisi 38, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Tunisi 38",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.908408,
@@ -181,8 +181,8 @@
       "Salumerie",
       "Norcinerie"
     ],
-    "address" : "Piazza Campo de' Fiori, 43, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Campo de' Fiori, 43",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.895592,
@@ -204,8 +204,8 @@
     "categories" : [
       "Salumerie"
     ],
-    "address" : "Piazza della Rotonda, 5, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza della Rotonda, 5",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.899102,
@@ -228,8 +228,8 @@
       "Cafes",
       "Italian"
     ],
-    "address" : "Via dei Condotti 86, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Condotti 86",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.905621,
@@ -253,8 +253,8 @@
       "Bakeries",
       "Cupcakes"
     ],
-    "address" : "Via dei Chiavari 34, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Chiavari 34",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.894607,
@@ -280,8 +280,8 @@
       "Beer",
       "Wine & Spirits"
     ],
-    "address" : "Via Cesare Beccaria 3, 00196 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Cesare Beccaria 3",
+    "neighborhoods" : [
       "Flaminio"
     ],
     "latitude" : 41.91276,
@@ -305,8 +305,8 @@
       "Roman",
       "Gluten-Free"
     ],
-    "address" : "Via di Monte d'Oro 17, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di Monte d'Oro 17",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.904291,
@@ -328,8 +328,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Piazza del Colosseo, 00100 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza del Colosseo",
+    "neighborhoods" : [
       "Aventino"
     ],
     "latitude" : 41.890709,
@@ -351,8 +351,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Via Sacra, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Sacra",
+    "neighborhoods" : [
       "Centro Storico",
       "Aventino"
     ],
@@ -376,8 +376,8 @@
       "Italian",
       "Vegetarian"
     ],
-    "address" : "Salita dei Crescenzi, 31, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Salita dei Crescenzi, 31",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.899088,
@@ -402,8 +402,8 @@
       "Bars",
       "Juice Bars & Smoothies"
     ],
-    "address" : "Via Giuseppe Ferrari 23, 00195 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Giuseppe Ferrari 23",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.914343,
@@ -425,8 +425,8 @@
     "categories" : [
       "Bars"
     ],
-    "address" : "Piazza di San Calisto 4, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di San Calisto 4",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.88905,
@@ -450,8 +450,8 @@
       "Cocktail Bars",
       "Italian"
     ],
-    "address" : "Via del Pellegrino 87, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Pellegrino 87",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.897089,
@@ -473,8 +473,8 @@
     "categories" : [
       "Churches"
     ],
-    "address" : "Via Labicana 95, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Labicana 95",
+    "neighborhoods" : [
       "Aventino",
       "Esquilino"
     ],
@@ -497,8 +497,8 @@
     "categories" : [
       "Churches"
     ],
-    "address" : "Piazza di San Giovanni in Laterano 4, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di San Giovanni in Laterano 4",
+    "neighborhoods" : [
       "Esquilino"
     ],
     "latitude" : 41.88696,
@@ -519,8 +519,8 @@
     "priceRange" : "",
     "categories" : [
     ],
-    "address" : "Piazzale del Verano, 3, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazzale del Verano, 3",
+    "neighborhoods" : [
     ],
     "latitude" : 41.900157,
     "longitude" : 12.517734,
@@ -542,8 +542,8 @@
       "Churches",
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Piazzale San Paolo 1, 00146 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazzale San Paolo 1",
+    "neighborhoods" : [
       "Ostiense"
     ],
     "latitude" : 41.859426,
@@ -566,7 +566,7 @@
       "Churches"
     ],
     "address" : "Piazza San Pietro, Vatican City",
-    "neighborhood" : [
+    "neighborhoods" : [
       "Vaticano"
     ],
     "latitude" : 41.902218,
@@ -588,8 +588,8 @@
     "categories" : [
       "Churches"
     ],
-    "address" : "Piazza di Santa Cecilia 22, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di Santa Cecilia 22",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.887186,
@@ -611,8 +611,8 @@
     "categories" : [
       "Churches"
     ],
-    "address" : "Scala dell'Arcicapitolina 12, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Scala dell'Arcicapitolina 12",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.893999,
@@ -634,8 +634,8 @@
     "categories" : [
       "Churches"
     ],
-    "address" : "Piazza di Santa Maria in Trastevere, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di Santa Maria in Trastevere",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.889697,
@@ -657,8 +657,8 @@
     "categories" : [
       "Churches"
     ],
-    "address" : "Piazza di San Maria Maggiore 42, 00100 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di San Maria Maggiore 42",
+    "neighborhoods" : [
       "Termini"
     ],
     "latitude" : 41.897868,
@@ -680,8 +680,8 @@
     "categories" : [
       "Cheese Shops"
     ],
-    "address" : "Via Santa Maria del Pianto 9A, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Santa Maria del Pianto 9A",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.89338,
@@ -704,8 +704,8 @@
       "Breweries",
       "Pubs"
     ],
-    "address" : "Via Vespasiano 2, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Vespasiano 2",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.906709,
@@ -727,8 +727,8 @@
     "categories" : [
       "Libraries"
     ],
-    "address" : "Piazza di Sant'Agostino, 8, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di Sant'Agostino, 8",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.900675,
@@ -750,8 +750,8 @@
     "categories" : [
       "Libraries"
     ],
-    "address" : "Via di Sant Ignazio, 52, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di Sant Ignazio, 52",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.898825,
@@ -773,8 +773,8 @@
     "categories" : [
       "Libraries"
     ],
-    "address" : "Via Collegio Romeno, 27, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Collegio Romeno, 27",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.898747,
@@ -796,8 +796,8 @@
     "categories" : [
       "Libraries"
     ],
-    "address" : "Piazza Venezia 3, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Venezia 3",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.896254,
@@ -819,8 +819,8 @@
     "categories" : [
       "Libraries"
     ],
-    "address" : "Via della Lungara 12, 00165 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Lungara 12",
+    "neighborhoods" : [
       "Borgo"
     ],
     "latitude" : 41.893242,
@@ -842,8 +842,8 @@
     "categories" : [
       "Libraries"
     ],
-    "address" : "Piazza Chiesa Nuova, 18, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Chiesa Nuova, 18",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.898188,
@@ -867,8 +867,8 @@
       "Breweries",
       "Pubs"
     ],
-    "address" : "Via Benedetta 23, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Benedetta 23",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.891764,
@@ -892,8 +892,8 @@
       "Wine & Spirits",
       "Breweries"
     ],
-    "address" : "Via del Pigneto 105, 00176 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Pigneto 105",
+    "neighborhoods" : [
     ],
     "latitude" : 41.888923,
     "longitude" : 12.526621,
@@ -915,8 +915,8 @@
       "Bakeries",
       "Chocolatiers & Shops"
     ],
-    "address" : "Via della Luce 21, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Luce 21",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.888608,
@@ -939,8 +939,8 @@
       "Bakeries",
       "Desserts"
     ],
-    "address" : "Via del Portico d'Ottavia 1, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Portico d'Ottavia 1",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.89317,
@@ -962,8 +962,8 @@
     "categories" : [
       "Pizza"
     ],
-    "address" : "Via della Meloria 43, 00136 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Meloria 43",
+    "neighborhoods" : [
       "Balduina Montemario",
       "Prati"
     ],
@@ -990,8 +990,8 @@
       "Pubs",
       "Breweries"
     ],
-    "address" : "Via Portuense 82, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Portuense 82",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.87895,
@@ -1014,8 +1014,8 @@
       "Bistros",
       "Breweries"
     ],
-    "address" : "Via Ferdinando Gregorovius 9, 00179 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Ferdinando Gregorovius 9",
+    "neighborhoods" : [
       "Appia Antica"
     ],
     "latitude" : 41.872242,
@@ -1038,8 +1038,8 @@
       "Brasseries",
       "Pubs"
     ],
-    "address" : "Via delle Terme di Tito 80, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via delle Terme di Tito 80",
+    "neighborhoods" : [
       "Esquilino",
       "Monti"
     ],
@@ -1062,8 +1062,8 @@
     "categories" : [
       "Bakeries"
     ],
-    "address" : "Via Ettore Rolli 29, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Ettore Rolli 29",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.874173,
@@ -1085,8 +1085,8 @@
     "categories" : [
       "Italian"
     ],
-    "address" : "Via Giuseppe Avezzana 11, 00195 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Giuseppe Avezzana 11",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.915287,
@@ -1110,8 +1110,8 @@
       "Bistros",
       "Beer Gardens"
     ],
-    "address" : "Via Andrea Doria, 46A, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Andrea Doria, 46A",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.909707,
@@ -1134,8 +1134,8 @@
       "Public Plazas",
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Piazza Campo de' Fiori, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Campo de' Fiori",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.895526,
@@ -1159,8 +1159,8 @@
       "Beer",
       "Wine & Spirits"
     ],
-    "address" : "Via Belsiana 15, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Belsiana 15",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.905852,
@@ -1183,7 +1183,7 @@
       "Churches"
     ],
     "address" : "Vatican City",
-    "neighborhood" : [
+    "neighborhoods" : [
     ],
     "latitude" : 41.902947,
     "longitude" : 12.454484,
@@ -1204,8 +1204,8 @@
     "categories" : [
       "Museums"
     ],
-    "address" : "Lungotevere Castello 50, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Lungotevere Castello 50",
+    "neighborhoods" : [
     ],
     "latitude" : 41.903063,
     "longitude" : 12.466276,
@@ -1227,8 +1227,8 @@
       "Specialty Food",
       "Beverage Store"
     ],
-    "address" : "Via Cola di Rienzo 196, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Cola di Rienzo 196",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.907302,
@@ -1252,8 +1252,8 @@
       "Churches",
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Via Appia Antica 136, 00178 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Appia Antica 136",
+    "neighborhoods" : [
     ],
     "latitude" : 41.855907,
     "longitude" : 12.516259,
@@ -1274,8 +1274,8 @@
     "categories" : [
       "Churches"
     ],
-    "address" : "Via degli Astalli 16, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via degli Astalli 16",
+    "neighborhoods" : [
     ],
     "latitude" : 41.895787,
     "longitude" : 12.480363,
@@ -1297,8 +1297,8 @@
       "Landmarks & Historical Buildings",
       "Churches"
     ],
-    "address" : "Piazza di San Luigi de' Francesi 20, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di San Luigi de' Francesi 20",
+    "neighborhoods" : [
     ],
     "latitude" : 41.899677,
     "longitude" : 12.474944,
@@ -1319,8 +1319,8 @@
     "categories" : [
       "Churches"
     ],
-    "address" : "Via XX Settembre 17, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via XX Settembre 17",
+    "neighborhoods" : [
     ],
     "latitude" : 41.904781,
     "longitude" : 12.494252,
@@ -1341,8 +1341,8 @@
     "categories" : [
       "Funeral Services & Cemeteries"
     ],
-    "address" : "Via Caio Cestio 6, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Caio Cestio 6",
+    "neighborhoods" : [
     ],
     "latitude" : 41.87689,
     "longitude" : 12.47999,
@@ -1363,8 +1363,8 @@
     "categories" : [
       "Cocktail Bars"
     ],
-    "address" : "Via Braccio Da Montone 80, 00176 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Braccio Da Montone 80",
+    "neighborhoods" : [
       "Pigneto"
     ],
     "latitude" : 41.889216,
@@ -1387,8 +1387,8 @@
     "categories" : [
       "Italian"
     ],
-    "address" : "Via degli Avignonesi 22, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via degli Avignonesi 22",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.902952,
@@ -1410,8 +1410,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Via dei Fori Imperiali, 00138 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Fori Imperiali",
+    "neighborhoods" : [
     ],
     "latitude" : 41.893364,
     "longitude" : 12.486927,
@@ -1432,8 +1432,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Piazza del Colosseo 1, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza del Colosseo 1",
+    "neighborhoods" : [
       "Aventino"
     ],
     "latitude" : 41.89021,
@@ -1456,8 +1456,8 @@
       "Gelato",
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via Silvio Spaventa 26, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Silvio Spaventa 26",
+    "neighborhoods" : [
       "Termini"
     ],
     "latitude" : 41.907279,
@@ -1482,8 +1482,8 @@
       "Wine & Spirits",
       "Wine Bars"
     ],
-    "address" : "Piazza Pasquino 73, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Pasquino 73",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.89779,
@@ -1505,8 +1505,8 @@
     "categories" : [
       "Roman"
     ],
-    "address" : "Via dei Vascellari 29, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Vascellari 29",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.888253,
@@ -1529,8 +1529,8 @@
       "Italian",
       "Pizza"
     ],
-    "address" : "Piazza del Fico 29, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza del Fico 29",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.899343,
@@ -1554,8 +1554,8 @@
       "Italian",
       "Pizza"
     ],
-    "address" : "Via di Parione 34, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di Parione 34",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.898696,
@@ -1578,8 +1578,8 @@
       "Pizza",
       "Roman"
     ],
-    "address" : "Vicolo del Bologna 45, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Vicolo del Bologna 45",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.89141,
@@ -1602,8 +1602,8 @@
       "Beer",
       "Wine & Spirits"
     ],
-    "address" : "Via Ostilia 4B, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Ostilia 4B",
+    "neighborhoods" : [
       "Aventino",
       "Esquilino"
     ],
@@ -1626,8 +1626,8 @@
     "categories" : [
       "Museums"
     ],
-    "address" : "Via della Domus Aurea 1, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Domus Aurea 1",
+    "neighborhoods" : [
       "Aventino",
       "Esquilino"
     ],
@@ -1652,8 +1652,8 @@
       "Wine & Spirits",
       "Breweries"
     ],
-    "address" : "Via Cavour 88, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Cavour 88",
+    "neighborhoods" : [
       "Monti"
     ],
     "latitude" : 41.897801,
@@ -1678,8 +1678,8 @@
       "Sardinian",
       "Mediterranean"
     ],
-    "address" : "Corso Trieste 23, 00198 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Corso Trieste 23",
+    "neighborhoods" : [
     ],
     "latitude" : 41.914912,
     "longitude" : 12.507533,
@@ -1701,8 +1701,8 @@
       "Beer",
       "Wine & Spirits"
     ],
-    "address" : "Via Torino 133, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Torino 133",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.901152,
@@ -1727,8 +1727,8 @@
       "Wine Bars",
       "Italian"
     ],
-    "address" : "Piazza Trilussa 41, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Trilussa 41",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.891249,
@@ -1751,8 +1751,8 @@
       "Beer",
       "Wine & Spirits"
     ],
-    "address" : "Via dei Banchi Vecchi 14, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Banchi Vecchi 14",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.897794,
@@ -1776,8 +1776,8 @@
       "Mediterranean",
       "Breakfast & Brunch"
     ],
-    "address" : "Vicolo delle Vacche 9, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Vicolo delle Vacche 9",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.899677,
@@ -1799,8 +1799,8 @@
     "categories" : [
       "Italian"
     ],
-    "address" : "Via Madonna dei Monti 28, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Madonna dei Monti 28",
+    "neighborhoods" : [
       "Monti"
     ],
     "latitude" : 41.894148,
@@ -1823,8 +1823,8 @@
       "Ice Cream & Frozen Yogurt",
       "Gelato"
     ],
-    "address" : "Via Principe Eugenio 65, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Principe Eugenio 65",
+    "neighborhoods" : [
       "Esquilino"
     ],
     "latitude" : 41.893596,
@@ -1847,8 +1847,8 @@
       "Ice Cream & Frozen Yogurt",
       "Gelato"
     ],
-    "address" : "Via Laurina 10, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Laurina 10",
+    "neighborhoods" : [
       "Flaminio"
     ],
     "latitude" : 41.908757,
@@ -1871,8 +1871,8 @@
       "Ice Cream & Frozen Yogurt",
       "Gelato"
     ],
-    "address" : "Via Rome Libera 11, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Rome Libera 11",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.8865,
@@ -1896,8 +1896,8 @@
       "Ice Cream & Frozen Yogurt",
       "Gluten-Free"
     ],
-    "address" : "Piazza degli Zingari 5, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza degli Zingari 5",
+    "neighborhoods" : [
       "Monti"
     ],
     "latitude" : 41.895632,
@@ -1920,8 +1920,8 @@
       "Ice Cream & Frozen Yogurt",
       "Desserts"
     ],
-    "address" : "Via Leone IV 50, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Leone IV 50",
+    "neighborhoods" : [
       "Salario"
     ],
     "latitude" : 41.909676,
@@ -1944,8 +1944,8 @@
       "Bars",
       "Italian"
     ],
-    "address" : "Via Cicerone 61, 00193 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Cicerone 61",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.908103,
@@ -1968,8 +1968,8 @@
       "Friterie",
       "Roman"
     ],
-    "address" : "Largo dei Librari 88, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Largo dei Librari 88",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.89463,
@@ -1991,8 +1991,8 @@
     "categories" : [
       "Gelato"
     ],
-    "address" : "Via della Lungaretta 96, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Lungaretta 96",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.889628,
@@ -2015,8 +2015,8 @@
       "Ice Cream & Frozen Yogurt",
       "Bars"
     ],
-    "address" : "Via Paola Falconieri 117, 00152 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Paola Falconieri 117",
+    "neighborhoods" : [
       "Monteverde"
     ],
     "latitude" : 41.874905,
@@ -2038,8 +2038,8 @@
     "categories" : [
       "Roman"
     ],
-    "address" : "Via di Monte Testaccio 97, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di Monte Testaccio 97",
+    "neighborhoods" : [
       "Ostiense",
       "Testaccio"
     ],
@@ -2064,8 +2064,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Via Garibaldi 30, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Garibaldi 30",
+    "neighborhoods" : [
       "Portuense"
     ],
     "latitude" : 41.888987,
@@ -2087,8 +2087,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Piazza di Trevi, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di Trevi",
+    "neighborhoods" : [
     ],
     "latitude" : 41.900765,
     "longitude" : 12.483336,
@@ -2111,8 +2111,8 @@
       "Desserts",
       "Pizza"
     ],
-    "address" : "Vicolo del Gallo 14, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Vicolo del Gallo 14",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.895753,
@@ -2136,8 +2136,8 @@
       "Landmarks & Historical Buildings",
       "Local Flavor"
     ],
-    "address" : "Via della Salara Vecchia, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Salara Vecchia",
+    "neighborhoods" : [
     ],
     "latitude" : 41.892662,
     "longitude" : 12.486933,
@@ -2158,8 +2158,8 @@
     "categories" : [
       "Salumerie"
     ],
-    "address" : "Via Goito 32, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Goito 32",
+    "neighborhoods" : [
       "Termini"
     ],
     "latitude" : 41.90475,
@@ -2181,8 +2181,8 @@
     "categories" : [
       "Friterie"
     ],
-    "address" : "Via Silvio Spaventa 20, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Silvio Spaventa 20",
+    "neighborhoods" : [
       "Termini"
     ],
     "latitude" : 41.907202,
@@ -2206,8 +2206,8 @@
       "Desserts",
       "Creperies"
     ],
-    "address" : "Via del Governo Vecchio 112, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Governo Vecchio 112",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.898313,
@@ -2230,8 +2230,8 @@
       "Museums",
       "Art Galleries"
     ],
-    "address" : "Piazzale del Museo Borghese 5, 00197 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazzale del Museo Borghese 5",
+    "neighborhoods" : [
     ],
     "latitude" : 41.91421,
     "longitude" : 12.492144,
@@ -2253,8 +2253,8 @@
       "Art Galleries",
       "Museums"
     ],
-    "address" : "Piazza Strada Statale Apostoli 66, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Strada Statale Apostoli 66",
+    "neighborhoods" : [
     ],
     "latitude" : 41.897162,
     "longitude" : 12.483499,
@@ -2275,8 +2275,8 @@
     "categories" : [
       "Art Galleries"
     ],
-    "address" : "Via del Corso 305, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Corso 305",
+    "neighborhoods" : [
     ],
     "latitude" : 41.897492,
     "longitude" : 12.481457,
@@ -2296,8 +2296,8 @@
     "priceRange" : "",
     "categories" : [
     ],
-    "address" : "Via della Lungara 10, 00165 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Lungara 10",
+    "neighborhoods" : [
       "more info: http://www.barberinicorsini.org/"
     ],
     "latitude" : 41.893242,
@@ -2320,8 +2320,8 @@
       "Art Galleries",
       "Museums"
     ],
-    "address" : "Via delle Quattro Fontane 13, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via delle Quattro Fontane 13",
+    "neighborhoods" : [
       "more info: http://www.barberinicorsini.org/"
     ],
     "latitude" : 41.902541,
@@ -2344,8 +2344,8 @@
       "Ice Cream & Frozen Yogurt",
       "Gelato"
     ],
-    "address" : "Via della Scala 51, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Scala 51",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.891305,
@@ -2368,8 +2368,8 @@
       "Ice Cream & Frozen Yogurt",
       "Gelato"
     ],
-    "address" : "Via dei Gracchi 272, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Gracchi 272",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.909196,
@@ -2394,8 +2394,8 @@
       "Ice Cream & Frozen Yogurt",
       "Gelato"
     ],
-    "address" : "Viale Regina Margherita 212, 00198 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Viale Regina Margherita 212",
+    "neighborhoods" : [
     ],
     "latitude" : 41.91345,
     "longitude" : 12.50592,
@@ -2419,8 +2419,8 @@
       "Gelato",
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via Amerigo Vespucci 35, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Amerigo Vespucci 35",
+    "neighborhoods" : [
       "Ostiense",
       "Testaccio"
     ],
@@ -2443,8 +2443,8 @@
     "categories" : [
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via degli Uffici del Vicario 40, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via degli Uffici del Vicario 40",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.900955,
@@ -2468,8 +2468,8 @@
       "Desserts",
       "Pizza"
     ],
-    "address" : "Via della Croce 49A, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Croce 49A",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.905968,
@@ -2491,8 +2491,8 @@
     "categories" : [
       "Shaved Ice"
     ],
-    "address" : "Via Trionfale 37, 00195 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Trionfale 37",
+    "neighborhoods" : [
       "Balduina Montemario"
     ],
     "latitude" : 41.912384,
@@ -2514,8 +2514,8 @@
     "categories" : [
       "Italian"
     ],
-    "address" : "Largo Fumasoni Biondi 5, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Largo Fumasoni Biondi 5",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.889666,
@@ -2538,8 +2538,8 @@
       "Italian",
       "Seafood"
     ],
-    "address" : "Via Aleardo Aleardi, 4, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Aleardo Aleardi, 4",
+    "neighborhoods" : [
       "Esquilino"
     ],
     "latitude" : 41.888098,
@@ -2561,8 +2561,8 @@
     "categories" : [
       "Roman"
     ],
-    "address" : "Via dei Marrucini 18C, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Marrucini 18C",
+    "neighborhoods" : [
       "San Lorenzo",
       "Termini"
     ],
@@ -2587,8 +2587,8 @@
       "Beer",
       "Wine & Spirits"
     ],
-    "address" : "Via Giuseppe Gioacchino Belli 33, 00193 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Giuseppe Gioacchino Belli 33",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.906864,
@@ -2611,8 +2611,8 @@
       "Italian",
       "Wine Bars"
     ],
-    "address" : "Via Ostilia 23, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Ostilia 23",
+    "neighborhoods" : [
       "Aventino"
     ],
     "latitude" : 41.888622,
@@ -2635,8 +2635,8 @@
       "Pizza",
       "Italian"
     ],
-    "address" : "Via del Corallo 11, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Corallo 11",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.899044,
@@ -2658,8 +2658,8 @@
     "categories" : [
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via della Panetteria 42, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Panetteria 42",
+    "neighborhoods" : [
       "Aventino"
     ],
     "latitude" : 41.901641,
@@ -2681,8 +2681,8 @@
     "categories" : [
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Viale Aventino 59, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Viale Aventino 59",
+    "neighborhoods" : [
       "Eur"
     ],
     "latitude" : 41.881434,
@@ -2706,8 +2706,8 @@
       "Tea Rooms",
       "Italian"
     ],
-    "address" : "Via Dei Gracchi 179, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Dei Gracchi 179",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.908535,
@@ -2730,8 +2730,8 @@
       "Seafood",
       "Italian"
     ],
-    "address" : "Via dei Chiavari 4, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Chiavari 4",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.895269,
@@ -2755,8 +2755,8 @@
       "Wine Bars",
       "Breakfast & Brunch"
     ],
-    "address" : "Via Properzio 31, 00193 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Properzio 31",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.905526,
@@ -2778,8 +2778,8 @@
     "categories" : [
       "Cocktail Bars"
     ],
-    "address" : "Vicolo Cellini 30, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Vicolo Cellini 30",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.897775,
@@ -2806,8 +2806,8 @@
       "Beer",
       "Wine & Spirits"
     ],
-    "address" : "Via Veio 4, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Veio 4",
+    "neighborhoods" : [
       "Appio San Giovanni"
     ],
     "latitude" : 41.884526,
@@ -2829,8 +2829,8 @@
     "categories" : [
       "Italian"
     ],
-    "address" : "Via Giuseppe Gioacchino Belli 59, 00193 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Giuseppe Gioacchino Belli 59",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.906513,
@@ -2855,8 +2855,8 @@
       "Breweries",
       "Italian"
     ],
-    "address" : "Piazza Testaccio 38, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Testaccio 38",
+    "neighborhoods" : [
       "Ostiense",
       "Testaccio"
     ],
@@ -2881,8 +2881,8 @@
       "Breweries",
       "Beer Gardens"
     ],
-    "address" : "Via di San Giovanni in Laterano 24, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di San Giovanni in Laterano 24",
+    "neighborhoods" : [
       "Aventino",
       "Esquilino"
     ],
@@ -2907,8 +2907,8 @@
       "Cafes",
       "Coffee Roasteries"
     ],
-    "address" : "Via degli Orfani 84, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via degli Orfani 84",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.899468,
@@ -2932,8 +2932,8 @@
       "Wine & Spirits",
       "Cheese Shops"
     ],
-    "address" : "Mercato Piazza Epiro, Box 25, 00183 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Mercato Piazza Epiro, Box 25",
+    "neighborhoods" : [
       "Appio San Giovanni"
     ],
     "latitude" : 41.878501,
@@ -2956,8 +2956,8 @@
       "Ice Cream & Frozen Yogurt",
       "Gelato"
     ],
-    "address" : "Via Felice Cavallotti 36B, 00152 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Felice Cavallotti 36B",
+    "neighborhoods" : [
       "Monteverde"
     ],
     "latitude" : 41.878868,
@@ -2981,8 +2981,8 @@
       "Wine Bars",
       "Sandwiches"
     ],
-    "address" : "Via della Scala 71, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Scala 71",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.890668,
@@ -3007,8 +3007,8 @@
       "Beer",
       "Wine & Spirits"
     ],
-    "address" : "Via della Panetteria 34A, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Panetteria 34A",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.90191,
@@ -3030,8 +3030,8 @@
     "categories" : [
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via Venti Settembre 60, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Venti Settembre 60",
+    "neighborhoods" : [
       "Termini"
     ],
     "latitude" : 41.907769,
@@ -3054,8 +3054,8 @@
       "Salumerie",
       "Sandwiches"
     ],
-    "address" : "Via del Banco di Santo Spirito 24, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Banco di Santo Spirito 24",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.900011,
@@ -3078,8 +3078,8 @@
       "Italian",
       "Gluten-Free"
     ],
-    "address" : "Via della Madonna dei Monti 9, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Madonna dei Monti 9",
+    "neighborhoods" : [
       "Monti"
     ],
     "latitude" : 41.894061,
@@ -3101,8 +3101,8 @@
     "categories" : [
       "Italian"
     ],
-    "address" : "Via Giovanni da Castel Bolognese, 63, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Giovanni da Castel Bolognese, 63",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.874117,
@@ -3127,8 +3127,8 @@
       "Desserts",
       "Patisserie/Cake Shop"
     ],
-    "address" : "Via Luigi Santini 22, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Luigi Santini 22",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.887141,
@@ -3150,8 +3150,8 @@
     "categories" : [
       "Italian"
     ],
-    "address" : "Via Panisperna 48, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Panisperna 48",
+    "neighborhoods" : [
       "Monti"
     ],
     "latitude" : 41.896446,
@@ -3175,8 +3175,8 @@
       "Gelato",
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via Ottaviano 29, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Ottaviano 29",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.907147,
@@ -3200,8 +3200,8 @@
       "Organic Stores",
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via Barletta, 1, 00192 Roma, Italy",
-    "neighborhood" : [
+    "address" : "Via Barletta, 1",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.909547,
@@ -3226,8 +3226,8 @@
       "Cafes",
       "Libraries"
     ],
-    "address" : "Via degli Aurunci 38, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via degli Aurunci 38",
+    "neighborhoods" : [
       "San Lorenzo"
     ],
     "latitude" : 41.896255,
@@ -3250,8 +3250,8 @@
       "Pubs",
       "Breweries"
     ],
-    "address" : "Via Benedetta 25, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Benedetta 25",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.891781,
@@ -3277,8 +3277,8 @@
       "Bistros",
       "Wine Bars"
     ],
-    "address" : "Via Plauto 33, 00193 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Plauto 33",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.904548,
@@ -3300,8 +3300,8 @@
     "categories" : [
       "Seafood"
     ],
-    "address" : "Via Milano, 48, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Milano, 48",
+    "neighborhoods" : [
       "Centro Storico",
       "Monti"
     ],
@@ -3324,8 +3324,8 @@
     "categories" : [
       "Farmers Market"
     ],
-    "address" : "Via Beniamino Franklin, 00118 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Beniamino Franklin",
+    "neighborhoods" : [
       "Ostiense",
       "Testaccio"
     ],
@@ -3347,8 +3347,8 @@
     "categories" : [
       "Farmers Market"
     ],
-    "address" : "Via La Goletta 1, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via La Goletta 1",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.908004,
@@ -3371,8 +3371,8 @@
       "Italian",
       "Wine Bars"
     ],
-    "address" : "Via del Governo Vecchio 72, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Governo Vecchio 72",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.897928,
@@ -3394,8 +3394,8 @@
     "categories" : [
       "Hotels"
     ],
-    "address" : "Piazza della Minerva 69, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza della Minerva 69",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.897502,
@@ -3419,8 +3419,8 @@
       "Sicilian",
       "Desserts"
     ],
-    "address" : "Via Marcantonio Colonna 38, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Marcantonio Colonna 38",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.909647,
@@ -3443,8 +3443,8 @@
       "Sandwiches",
       "Roman"
     ],
-    "address" : "Via Beniamino Franklin 12E, 00118 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Beniamino Franklin 12E",
+    "neighborhoods" : [
       "Ostiense",
       "Testaccio"
     ],
@@ -3467,8 +3467,8 @@
     "categories" : [
       "Museums"
     ],
-    "address" : "Piazza del Campidoglio 1, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza del Campidoglio 1",
+    "neighborhoods" : [
     ],
     "latitude" : 41.89335,
     "longitude" : 12.4829,
@@ -3489,8 +3489,8 @@
     "categories" : [
       "Museums"
     ],
-    "address" : "Viale Vaticano, 00165 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Viale Vaticano",
+    "neighborhoods" : [
       "Vaticano"
     ],
     "latitude" : 41.904137,
@@ -3512,8 +3512,8 @@
     "categories" : [
       "Museums"
     ],
-    "address" : "Piazzale di Villa Giulia, 9, 00196 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazzale di Villa Giulia, 9",
+    "neighborhoods" : [
     ],
     "latitude" : 41.9185,
     "longitude" : 12.47712,
@@ -3534,8 +3534,8 @@
     "categories" : [
       "Museums"
     ],
-    "address" : "Piazza di Sant'Apollinare, 46, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di Sant'Apollinare, 46",
+    "neighborhoods" : [
     ],
     "latitude" : 41.901231,
     "longitude" : 12.472858,
@@ -3556,8 +3556,8 @@
     "categories" : [
       "Museums"
     ],
-    "address" : "Largo Villa Peretti 2, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Largo Villa Peretti 2",
+    "neighborhoods" : [
     ],
     "latitude" : 41.901839,
     "longitude" : 12.498267,
@@ -3580,8 +3580,8 @@
       "Wine Bars",
       "Pizza"
     ],
-    "address" : "Via dei Cappellari 79, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Cappellari 79",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.896831,
@@ -3605,8 +3605,8 @@
       "Italian",
       "Cafeteria"
     ],
-    "address" : "Via Ettore Giovenale 54A, 00176 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Ettore Giovenale 54A",
+    "neighborhoods" : [
       "Pigneto"
     ],
     "latitude" : 41.889644,
@@ -3629,8 +3629,8 @@
       "Cocktail Bars",
       "Cafes"
     ],
-    "address" : "Via dei Vascellari 35, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Vascellari 35",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.887976,
@@ -3654,8 +3654,8 @@
       "Roman",
       "Middle Eastern"
     ],
-    "address" : "Via del Portico d'Ottavia 16, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Portico d'Ottavia 16",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.892869,
@@ -3679,8 +3679,8 @@
       "Pubs",
       "Italian"
     ],
-    "address" : "Via degli Equi 29, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via degli Equi 29",
+    "neighborhoods" : [
       "San Lorenzo",
       "Termini"
     ],
@@ -3703,8 +3703,8 @@
     "categories" : [
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Viale dei Bastioni Di Michelangelo, 5, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Viale dei Bastioni Di Michelangelo, 5",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.906402,
@@ -3728,8 +3728,8 @@
       "Gelato",
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Circonvallazione Cornelia 10, 00165 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Circonvallazione Cornelia 10",
+    "neighborhoods" : [
       "Balduina Montemario"
     ],
     "latitude" : 41.899012,
@@ -3752,8 +3752,8 @@
       "Ice Cream & Frozen Yogurt",
       "Gelato"
     ],
-    "address" : "Via Arenula 47, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Arenula 47",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.892274,
@@ -3776,8 +3776,8 @@
       "Breweries",
       "Burgers"
     ],
-    "address" : "Via degli Specchi 6, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via degli Specchi 6",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.894291,
@@ -3803,8 +3803,8 @@
       "Roman",
       "Seafood"
     ],
-    "address" : "Via del Pellegrino, 11, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Pellegrino, 11",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.896077,
@@ -3827,8 +3827,8 @@
       "Italian",
       "Mediterranean"
     ],
-    "address" : "Via Alba, 32, 00182 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Alba, 32",
+    "neighborhoods" : [
       "Appio San Giovanni"
     ],
     "latitude" : 41.880187,
@@ -3852,8 +3852,8 @@
       "Breakfast & Brunch",
       "Sandwiches"
     ],
-    "address" : "Largo del Nazareno, 13, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Largo del Nazareno, 13",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.902849,
@@ -3875,8 +3875,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Via dei Fori Imperiali, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Fori Imperiali",
+    "neighborhoods" : [
     ],
     "latitude" : 41.89373,
     "longitude" : 12.486277,
@@ -3897,8 +3897,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Piazza del Quirinale, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza del Quirinale",
+    "neighborhoods" : [
     ],
     "latitude" : 41.898911,
     "longitude" : 12.486512,
@@ -3921,8 +3921,8 @@
       "Sandwiches",
       "Italian"
     ],
-    "address" : "Via Santa Maria in Via, 19, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Santa Maria in Via, 19",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.900628,
@@ -3945,8 +3945,8 @@
       "Bakeries",
       "Grocery"
     ],
-    "address" : "Via Trionfale 36, 00195 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Trionfale 36",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.911502,
@@ -3968,8 +3968,8 @@
     "categories" : [
       "Bakeries"
     ],
-    "address" : "Via Buonarroti 48, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Buonarroti 48",
+    "neighborhoods" : [
       "Esquilino"
     ],
     "latitude" : 41.894089,
@@ -3992,8 +3992,8 @@
       "Churches",
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Piazza della Rotonda 2, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza della Rotonda 2",
+    "neighborhoods" : [
     ],
     "latitude" : 41.899184,
     "longitude" : 12.476892,
@@ -4015,8 +4015,8 @@
       "Salumerie",
       "Roman"
     ],
-    "address" : "Via del Pozzo delle Cornacchie 36, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via del Pozzo delle Cornacchie 36",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.89995,
@@ -4038,8 +4038,8 @@
     "categories" : [
       "Desserts"
     ],
-    "address" : "Piazza del Paradiso 56, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza del Paradiso 56",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.896014,
@@ -4061,8 +4061,8 @@
     "categories" : [
       "Pasta Shops"
     ],
-    "address" : "Via della Croce 8, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Croce 8",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.906396,
@@ -4084,8 +4084,8 @@
     "categories" : [
       "Cafes"
     ],
-    "address" : "Piazza del Risorgimento 7, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza del Risorgimento 7",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.90639,
@@ -4107,8 +4107,8 @@
     "categories" : [
       "Roman"
     ],
-    "address" : "Via Marmorata 39, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Marmorata 39",
+    "neighborhoods" : [
       "Ostiense",
       "Testaccio"
     ],
@@ -4133,8 +4133,8 @@
       "Seafood",
       "Mediterranean"
     ],
-    "address" : "Via di Grotta Pinta, 8, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di Grotta Pinta, 8",
+    "neighborhoods" : [
       "Centro Storic"
     ],
     "latitude" : 41.895023,
@@ -4156,8 +4156,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Piazza del Popolo, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza del Popolo",
+    "neighborhoods" : [
       "Flaminio"
     ],
     "latitude" : 41.910704,
@@ -4179,8 +4179,8 @@
     "categories" : [
       "Public Plazas"
     ],
-    "address" : "Piazza di Spagna, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di Spagna",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.905698,
@@ -4202,8 +4202,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Piazza Navona, Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Navona",
+    "neighborhoods" : [
     ],
     "latitude" : 41.899163,
     "longitude" : 12.473074,
@@ -4224,8 +4224,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Piazza Venezia, Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Venezia",
+    "neighborhoods" : [
     ],
     "latitude" : 41.895766,
     "longitude" : 12.482574,
@@ -4246,8 +4246,8 @@
     "categories" : [
       "Pizza"
     ],
-    "address" : "Via Flavia 98, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Flavia 98",
+    "neighborhoods" : [
       "Termini"
     ],
     "latitude" : 41.907597,
@@ -4269,8 +4269,8 @@
     "categories" : [
       "Pizza"
     ],
-    "address" : "Piazza di Santa Maria Liberatrice 44A, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di Santa Maria Liberatrice 44A",
+    "neighborhoods" : [
       "Ostiense",
       "Testaccio"
     ],
@@ -4294,8 +4294,8 @@
       "Pizza",
       "Roman"
     ],
-    "address" : "Via Ostiense 56B, 00154 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Ostiense 56B",
+    "neighborhoods" : [
       "Ostiense",
       "Testaccio"
     ],
@@ -4318,8 +4318,8 @@
     "categories" : [
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via della Croce 82, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Croce 82",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.906449,
@@ -4343,8 +4343,8 @@
       "Patisserie/Cake Shop",
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Via Cola di Rienzo 313, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Cola di Rienzo 313",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.906649,
@@ -4366,8 +4366,8 @@
     "categories" : [
       "Desserts"
     ],
-    "address" : "Via Cassia 8B, 00191 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Cassia 8B",
+    "neighborhoods" : [
       "Corso Francia"
     ],
     "latitude" : 41.938239,
@@ -4389,8 +4389,8 @@
     "categories" : [
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Isola Tiberina, Rome, Italy",
-    "neighborhood" : [
+    "address" : "Isola Tiberina",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.890519,
@@ -4414,8 +4414,8 @@
       "Wine Bars",
       "Sandwiches"
     ],
-    "address" : "Via dei Serpenti, 163, 00184 Roma, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Serpenti, 163",
+    "neighborhoods" : [
       "Monti"
     ],
     "latitude" : 41.894731,
@@ -4439,8 +4439,8 @@
       "Pubs",
       "Italian"
     ],
-    "address" : "Via di San Saba 11, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di San Saba 11",
+    "neighborhoods" : [
       "Aventino"
     ],
     "latitude" : 41.879491,
@@ -4464,8 +4464,8 @@
       "Pubs",
       "Lounges"
     ],
-    "address" : "Via Labicana 52, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Labicana 52",
+    "neighborhoods" : [
       "Esquilino"
     ],
     "latitude" : 41.889629,
@@ -4488,8 +4488,8 @@
       "Bakeries",
       "Patisserie/Cake Shop"
     ],
-    "address" : "Via dello Statuto 60, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dello Statuto 60",
+    "neighborhoods" : [
       "Esquilino"
     ],
     "latitude" : 41.894824,
@@ -4514,8 +4514,8 @@
       "Wine Bars",
       "Pizza"
     ],
-    "address" : "Via di Panico 83, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di Panico 83",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.899903,
@@ -4537,8 +4537,8 @@
       "Cafes",
       "Desserts"
     ],
-    "address" : "Vicolo de' Cinque, 11A, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Vicolo de' Cinque, 11A",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.890739,
@@ -4562,8 +4562,8 @@
       "Pubs",
       "Breweries"
     ],
-    "address" : "Piazza Campo de' Fiori 36, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Campo de' Fiori 36",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.895748,
@@ -4586,8 +4586,8 @@
       "Salumerie",
       "Italian"
     ],
-    "address" : "Via dei Giubbonari 21, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Giubbonari 21",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.894194,
@@ -4611,8 +4611,8 @@
       "Cafes",
       "Patisserie/Cake Shop"
     ],
-    "address" : "Piazza Benedetto Cairoli 16, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Benedetto Cairoli 16",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.894216,
@@ -4637,8 +4637,8 @@
       "Desserts",
       "Cafeteria"
     ],
-    "address" : "Via Tiburtina 135, 00185 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Tiburtina 135",
+    "neighborhoods" : [
       "San Lorenzo"
     ],
     "latitude" : 41.899096,
@@ -4661,8 +4661,8 @@
       "Roman",
       "Pizza"
     ],
-    "address" : "Via di Tor Millina 5, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di Tor Millina 5",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.899203,
@@ -4686,8 +4686,8 @@
       "Bakeries",
       "Ice Cream & Frozen Yogurt"
     ],
-    "address" : "Piazza di San Cosimato 61, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di San Cosimato 61",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.887486,
@@ -4710,8 +4710,8 @@
       "Bars",
       "Cafes"
     ],
-    "address" : "Piazza di S. Eustachio 82, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza di S. Eustachio 82",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.898368,
@@ -4735,8 +4735,8 @@
       "Breweries",
       "Italian"
     ],
-    "address" : "Via Siria 1, 00183 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Siria 1",
+    "neighborhoods" : [
       "Appio San Giovanni"
     ],
     "latitude" : 41.875469,
@@ -4760,8 +4760,8 @@
       "Desserts",
       "Lounges"
     ],
-    "address" : "Via Fabio Massimo 80A, 00192 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Fabio Massimo 80A",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.909795,
@@ -4783,8 +4783,8 @@
     "categories" : [
       "Italian"
     ],
-    "address" : "Via Urbana 56, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Urbana 56",
+    "neighborhoods" : [
       "Monti"
     ],
     "latitude" : 41.895406,
@@ -4808,8 +4808,8 @@
       "Wine Bars",
       "Breakfast & Brunch"
     ],
-    "address" : "Via Properzio 31, 00193 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Properzio 31",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.905526,
@@ -4832,8 +4832,8 @@
       "Cocktail Bars",
       "Sandwiches"
     ],
-    "address" : "Via Fanfulla da Lodi 53, 00176 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Fanfulla da Lodi 53",
+    "neighborhoods" : [
       "Pigneto"
     ],
     "latitude" : 41.889273,
@@ -4856,8 +4856,8 @@
       "Venues & Event Spaces",
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Via di Tor Sanguigna, 3, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di Tor Sanguigna, 3",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.900423,
@@ -4881,8 +4881,8 @@
       "Breweries",
       "Brasseries"
     ],
-    "address" : "Via Pacinotti 83, 00146 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Pacinotti 83",
+    "neighborhoods" : [
       "Ostiense"
     ],
     "latitude" : 41.872078,
@@ -4904,8 +4904,8 @@
     "categories" : [
       "Italian"
     ],
-    "address" : "Via Tacito 42, 00193 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Tacito 42",
+    "neighborhoods" : [
       "Prati"
     ],
     "latitude" : 41.907408,
@@ -4929,8 +4929,8 @@
       "Bistros",
       "Tapas/Small Plates"
     ],
-    "address" : "Via dei Banchi Vecchi 143, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via dei Banchi Vecchi 143",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.897487,
@@ -4953,8 +4953,8 @@
       "Roman",
       "Bistros"
     ],
-    "address" : "Via della Madonna dei Monti 79, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Madonna dei Monti 79",
+    "neighborhoods" : [
       "Monti"
     ],
     "latitude" : 41.8941,
@@ -4977,8 +4977,8 @@
       "Museums",
       "Landmarks & Historical Buildings"
     ],
-    "address" : "Viale delle Terme di Caracalla 52, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Viale delle Terme di Caracalla 52",
+    "neighborhoods" : [
       "Aventino"
     ],
     "latitude" : 41.87993,
@@ -5000,8 +5000,8 @@
     "categories" : [
       "Cocktail Bars"
     ],
-    "address" : "Via di Pallacorda 2, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di Pallacorda 2",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.90235,
@@ -5025,8 +5025,8 @@
     "categories" : [
       "Pizza"
     ],
-    "address" : "Via Giovanni Branca, 88, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Giovanni Branca, 88",
+    "neighborhoods" : [
       "Ostiense",
       "Testaccio"
     ],
@@ -5049,8 +5049,8 @@
     "categories" : [
       "Roman"
     ],
-    "address" : "Via di Ponte Quattro Capi 16, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via di Ponte Quattro Capi 16",
+    "neighborhoods" : [
       "Centro Storico",
       "Trastevere"
     ],
@@ -5074,8 +5074,8 @@
       "Italian",
       "Buffets"
     ],
-    "address" : "Via Messina 29, 00198 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Messina 29",
+    "neighborhoods" : [
     ],
     "latitude" : 41.911182,
     "longitude" : 12.502405,
@@ -5096,8 +5096,8 @@
     "categories" : [
       "Pizza"
     ],
-    "address" : "Via Urbana 112, 00184 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Urbana 112",
+    "neighborhoods" : [
       "Monti"
     ],
     "latitude" : 41.896236,
@@ -5119,8 +5119,8 @@
     "categories" : [
       "Parks"
     ],
-    "address" : "Piazzale Flaminio, 00196 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazzale Flaminio",
+    "neighborhoods" : [
     ],
     "latitude" : 41.91188,
     "longitude" : 12.475692,
@@ -5142,8 +5142,8 @@
       "Museums",
       "Castles"
     ],
-    "address" : "Via della Lungara 230, 00165 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via della Lungara 230",
+    "neighborhoods" : [
     ],
     "latitude" : 41.893298,
     "longitude" : 12.467066,
@@ -5168,8 +5168,8 @@
       "Museums",
       "Stadiums & Arenas"
     ],
-    "address" : "Viale Trinità dei Monti 1, 00187 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Viale Trinità dei Monti 1",
+    "neighborhoods" : [
     ],
     "latitude" : 41.90789,
     "longitude" : 12.48258,
@@ -5190,8 +5190,8 @@
     "categories" : [
       "Wine Bars"
     ],
-    "address" : "Piazza Giuditta Tavani Arquati 114, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza Giuditta Tavani Arquati 114",
+    "neighborhoods" : [
       "Trastevere"
     ],
     "latitude" : 41.889827,
@@ -5215,8 +5215,8 @@
       "Cheese Shops",
       "Salumerie"
     ],
-    "address" : "Via Marmorata 47, 00153 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Via Marmorata 47",
+    "neighborhoods" : [
       "Ostiense",
       "Testaccio"
     ],
@@ -5240,8 +5240,8 @@
     "categories" : [
       "Patisserie/Cake Shop"
     ],
-    "address" : "Piazza del Teatro di Pompeo 20, 00186 Rome, Italy",
-    "neighborhood" : [
+    "address" : "Piazza del Teatro di Pompeo 20",
+    "neighborhoods" : [
       "Centro Storico"
     ],
     "latitude" : 41.896133,
