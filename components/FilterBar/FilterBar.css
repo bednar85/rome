@@ -1,0 +1,22 @@
+.filter_bar {
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.filter_bar__group {
+    box-sizing: border-box;
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.filter_bar__group:nth-last-of-type(-n+2) {
+    margin-bottom: 0;
+}
+
+.filter_bar__label {
+    display: block;
+    margin-bottom: 10px;
+}

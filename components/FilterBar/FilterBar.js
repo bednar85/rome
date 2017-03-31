@@ -53,64 +53,70 @@ class FilterBar extends React.Component {
     var component = this;
 
     return (
-      <div>
+      <div className={s.filter_bar}>
         <RadioGroup
+          className={s.filter_bar__group}
           name="sortBy"
           ref="sortBy"
           selectedValue={this.state.sortBy}
           onChange={this.handleChange.bind(this, 'sortBy')}>
-          <label><Radio value="distanceFromUs" />Distance From Us</label>
-          <label><Radio value="distanceFromHotel" />Distance From Hotel</label>
-          <label><Radio value="percentRecommended" />Most Recommended</label>
-          <label><Radio value="ryanInterestLevel" />Most Interesting</label>
+          <label className={s.filter_bar__label}><Radio value="distanceFromUs" />Distance From Us</label>
+          <label className={s.filter_bar__label}><Radio value="distanceFromHotel" />Distance From Hotel</label>
+          <label className={s.filter_bar__label}><Radio value="percentRecommended" />Most Recommended</label>
+          <label className={s.filter_bar__label}><Radio value="ryanInterestLevel" />Most Interesting</label>
         </RadioGroup>
         <RadioGroup
+          className={s.filter_bar__group}
           name="distance"
           ref="distance"
           selectedValue={this.state.distance}
           onChange={this.handleChange.bind(this, 'distance')}>
-          <label><Radio value="0.5" />Within 4 Blocks</label>
-          <label><Radio value="1.5" />Walking (1.5 mi)</label>
-          <label><Radio value="5" />Bus/Subway (5 mi)</label>
-          <label><Radio value="5000" />Show All</label>
+          <label className={s.filter_bar__label}><Radio value="0.5" />Within 4 Blocks</label>
+          <label className={s.filter_bar__label}><Radio value="1.5" />Walking (1.5 mi)</label>
+          <label className={s.filter_bar__label}><Radio value="5" />Bus/Subway (5 mi)</label>
+          <label className={s.filter_bar__label}><Radio value="5000" />Show All</label>
         </RadioGroup>
         <CheckboxGroup
+          className={s.filter_bar__group}
           name="recommendedLevel"
           ref="recommendedLevel"
           value={this.state.recommendedLevel}
           onChange={this.handleChange.bind(this, 'recommendedLevel')}>
-          <label><Checkbox value="4" />Very Highly Recommended</label>
-          <label><Checkbox value="3" />Highly Recommended</label>
-          <label><Checkbox value="2" />Recommended</label>
-          <label><Checkbox value="1" />Somewhat Recommended</label>
+          <label className={s.filter_bar__label}><Checkbox value="4" />Very Highly Recommended</label>
+          <label className={s.filter_bar__label}><Checkbox value="3" />Highly Recommended</label>
+          <label className={s.filter_bar__label}><Checkbox value="2" />Recommended</label>
+          <label className={s.filter_bar__label}><Checkbox value="1" />Somewhat Recommended</label>
         </CheckboxGroup>
         <CheckboxGroup
+          className={s.filter_bar__group}
           name="interestLevel"
           ref="interestLevel"
           value={this.state.interestLevel}
           onChange={this.handleChange.bind(this, 'interestLevel')}>
-          <label><Checkbox value="4" />Must Visit</label>
-          <label><Checkbox value="3" />Try Hard To Visit</label>
-          <label><Checkbox value="2" />Try To Visit</label>
-          <label><Checkbox value="1" />Visit If Possible</label>
+          <label className={s.filter_bar__label}><Checkbox value="4" />Must Visit</label>
+          <label className={s.filter_bar__label}><Checkbox value="3" />Try Hard To Visit</label>
+          <label className={s.filter_bar__label}><Checkbox value="2" />Try To Visit</label>
+          <label className={s.filter_bar__label}><Checkbox value="1" />Visit If Possible</label>
         </CheckboxGroup>
         <CheckboxGroup
+          className={s.filter_bar__group}
           name="priceRange"
           ref="priceRange"
           value={this.state.priceRange}
           onChange={this.handleChange.bind(this, 'priceRange')}>
-          <label><Checkbox value="1" />€</label>
-          <label><Checkbox value="2" />€€</label>
-          <label><Checkbox value="3" />€€€</label>
-          <label><Checkbox value="4" />€€€€</label>
+          <label className={s.filter_bar__label}><Checkbox value="1" />€</label>
+          <label className={s.filter_bar__label}><Checkbox value="2" />€€</label>
+          <label className={s.filter_bar__label}><Checkbox value="3" />€€€</label>
+          <label className={s.filter_bar__label}><Checkbox value="4" />€€€€</label>
         </CheckboxGroup>
         <RadioGroup
+          className={s.filter_bar__group}
           name="openNow"
           ref="openNow"
           selectedValue={this.state.openNow}
           onChange={this.handleChange.bind(this, 'openNow')}>
-          <label><Radio value="true" />Open Now</label>
-          <label><Radio value="false" />Show All</label>
+          <label className={s.filter_bar__label}><Radio value="true" />Open Now</label>
+          <label className={s.filter_bar__label}><Radio value="false" />Show All</label>
         </RadioGroup>
       </div>
     );
